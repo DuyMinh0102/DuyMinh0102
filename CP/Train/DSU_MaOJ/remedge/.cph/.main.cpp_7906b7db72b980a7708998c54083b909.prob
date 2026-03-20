@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\CP\\Train\\DSU_MaOJ\\remedge\\main.cpp","tests":[{"id":1771921580179,"input":"4 4 3\n1 2\n2 3\n3 4\n2 4\n4 4\n2 3\n1 1","output":"4\n2\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CP\\Train\\DSU_MaOJ\\remedge\\main.cpp","group":"local","local":true}

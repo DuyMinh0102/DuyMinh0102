@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\CP\\Train\\DSU_MaOJ\\yetanotherproblem\\main.cpp","tests":[{"id":1772450083442,"input":"6 4\n-2 5 6 10 -5 0\n-10\n5\n-4\n11","output":"0\n2\n1\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CP\\Train\\DSU_MaOJ\\yetanotherproblem\\main.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\CP\\Train\\pref_sum_MaOJ\\ratio_subtr\\main.cpp","tests":[{"id":1772085942039,"input":"1 2\n1010","output":"1"},{"id":1772085997543,"input":"3 9\n011110011","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CP\\Train\\pref_sum_MaOJ\\ratio_subtr\\main.cpp","group":"local","local":true}

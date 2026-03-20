@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\Minhh\\CP\\Train\\ST_BIT_MaOJ\\non_neg_subarr\\main.cpp","tests":[{"id":1773727377866,"input":"3\n1 -2 1","output":"3"},{"id":1773727544649,"input":"3\n-2 -2 5","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Minhh\\CP\\Train\\ST_BIT_MaOJ\\non_neg_subarr\\main.cpp","group":"local","local":true}

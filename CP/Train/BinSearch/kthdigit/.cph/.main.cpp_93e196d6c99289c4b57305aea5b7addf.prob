@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\Minhh\\CP\\Train\\BinSearch\\kthdigit\\main.cpp","tests":[{"id":1773626107745,"input":"14","output":"1"},{"id":1773626451989,"input":"97","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Minhh\\CP\\Train\\BinSearch\\kthdigit\\main.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\Minhh\\CP\\Train\\BFS_DFS_MarisaOJ\\fest1\\main.cpp","tests":[{"id":1773634253396,"input":"4 4 3\n2 3 4\n1 2\n2 3\n3 4\n4 1","output":"2 1 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Minhh\\CP\\Train\\BFS_DFS_MarisaOJ\\fest1\\main.cpp","group":"local","local":true}

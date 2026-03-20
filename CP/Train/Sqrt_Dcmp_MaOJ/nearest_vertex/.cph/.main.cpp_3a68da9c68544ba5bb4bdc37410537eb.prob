@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"c:\\Minhh\\CP\\Train\\Sqrt_Dcmp_MaOJ\\nearest_vertex\\main.cpp","tests":[{"id":1773893432432,"input":"3 2\n1 2 3\n1 2\n1 3\n2 2\n1 3","output":"0\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Minhh\\CP\\Train\\Sqrt_Dcmp_MaOJ\\nearest_vertex\\main.cpp","group":"local","local":true}
