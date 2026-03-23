@@ -23,7 +23,7 @@ int main() {
             dp[i][j] = INF;
         }
     }
- 
+ -*
     dp[1][0] = 0;
  
     for (int mask = 1; mask < (1 << n); ++mask) {
