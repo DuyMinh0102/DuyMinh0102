@@ -42,34 +42,7 @@ bool insert(string w){
     return (!is_new || passed_end);
 }
 
-bool search(string w){
-    int id = 0;
-
-    for (char c : w){
-        int charid = c - 'a';
-
-        if (trie[id].child[charid] == -1) return false;
-
-        id = trie[id].child[charid];
-    }
-
-    return trie[id].is_end;
-}
-
 int main(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-
-    cin >> n;
-
-    create();
-
-    bool found = false;
-
-    for (int i = 0; i < n; ++i){
-        cin >> s;
-        if (!found) if (insert(s)) found = true;
-    }
-
-    if (found) cout << "YES";
-    else cout << "NO";
 }
+k

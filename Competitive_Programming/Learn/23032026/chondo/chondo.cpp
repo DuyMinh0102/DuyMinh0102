@@ -7,7 +7,8 @@ ll dp[1005][10005], v[1005], w[1005];
 int main(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-    freopen("chondo.inp", "r", stdin); freopen("chondo.out", "w", stdout);
+    freopen("chondo.inp", "r", stdin); 
+    freopen("chondo.out", "w", stdout);
 
     cin >> n >> m;
 
