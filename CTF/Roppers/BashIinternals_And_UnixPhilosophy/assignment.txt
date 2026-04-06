@@ -1,0 +1,25 @@
+Answers:
+1. cat
+STDIN: ignored (since cat opens the 'animals' file directly)
+STDOUT: pipe to 'tee'
+STDERR: prolly terminal screen
+2. tee
+STDIN: pipe from 'cat animals'
+STDOUT: pipe to 'sort', writes to 'unsorted.txt'
+STDERR: prolly terminal screen
+3. sort
+STDIN: pipe from 'tee'
+STDOUT: pipe to 'uniq'
+STDERR: terminal screen
+4. uniq
+STDIN: pipe from 'sort'
+STDOUT: redirect to 'sorted.txt'
+STDERR: terminal screen
+
+Resources: 
+* manpages
+* google
+
+
+Feedback: 
+* Nice assignment

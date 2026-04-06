@@ -1,0 +1,38 @@
+Answers:
+1. Virtualization is running an operating system on a different one
+
+2. Reasons why we use virtualization:
+- We can share resources between multiple OSs
+- We can transport it to another system
+- Basically do whatever we want on the VM without worrying too much
+
+3. Differences between Host and Guest VM:
+- Host runs on physical hardware, VM runs within an environment managed by Host
+- Host has full control over physical hardwares, VM only has access to resources provided by Host
+- Host is the primary system supports virtualization, VM is secondary used to run applications or OSs that differ from the Host
+- Host manages allocations of hardware resources across all VMs, VM manages its own virtual resources
+- A Host can manage multiple VMs, VM operates as a separate program
+
+4. Differences between Container and VM
+- VM provides full OS-level isolation, containers share host OS
+- VMs are heavier, containers are much lighter
+- VMs starts up a bit slower compare to containers
+- Containers are more portable
+- VMs have strong isolation, while containers require some additional tweaks
+
+You'll use VMs when you need to run different OSs, need strong isolations, or hosting untrusted work
+Containers will be used when you need rapid scaling, lightweight deployments and consistent environments for microservices
+
+5. 
+Cloud: an environment that allows the user to access shared resources (i.e. storage, compute power, applications...) over a network
+Virtualization: a techonology that creates multiple simulated environments or VMs. It uses hypervisor to allocate resources and isolate VMs.
+
+Resources: 
+* google
+* roppers page itself
+* learn.microsoft.com
+* redhat.com
+* geeksforgeeks
+
+Feedback: 
+* Nice assignment
