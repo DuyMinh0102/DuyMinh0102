@@ -46,7 +46,7 @@ while active_indices:
             active_indices.remove(i)
             
     plt.draw()
-    plt.pause(0.05)
+    plt.pause(0.1)
 
 plt.ioff()
 plt.show()
