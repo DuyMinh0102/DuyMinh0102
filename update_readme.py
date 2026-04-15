@@ -78,14 +78,14 @@ def update_readme(markdown_content):
         with open("README.md", "r", encoding="utf-8") as f:
             readme = f.read()
 
-        # FILL THESE IN WITH YOUR MARKERS
         start_marker = ""
         end_marker = ""
-        
+
         if start_marker not in readme or end_marker not in readme:
             print(f"Error: Markers not found in README.md!")
             return
 
+        # re.escape ensures the special characters in the markers don't break the regex
         pattern = rf"({re.escape(start_marker)}\n)(.*?)(\n{re.escape(end_marker)})"
         replacement = f"\\g<1>{markdown_content}\\g<3>"
         
