@@ -81,7 +81,7 @@ def generate_markdown_table(tree):
     for item in tree:
         path = item['path']
         
-        # 1. Filter: Blobs only (files), inside target folders, and .cpp extension
+        # 1. Filter: Blobs (files) within target folders with .cpp extension
         if item['type'] == 'blob' and any(path.startswith(f + "/") for f in TARGET_FOLDERS):
             if not path.lower().endswith('.cpp'):
                 continue
@@ -89,24 +89,24 @@ def generate_markdown_table(tree):
             found_files = True
             parts = path.split('/')
             
-            # 2. Get the folder directly containing the file
+            # 2. Get the immediate parent folder
             # In 'Competitive_Programming/Train/Problem.cpp', parts[-2] is 'Train'
-            raw_folder_name = parts[-2] if len(parts) > 1 else "Root"
+            raw_folder_name = parts[-2] if len(parts) > 1 else "ROOT"
             
-            # 3. Capitalize (e.g., 'train' -> 'Train' or 'ptnk' -> 'Ptnk')
-            # If you want it all caps (PTNK), use .upper() instead
-            folder_display = raw_folder_name.capitalize()
+            # 3. Transform to FULLY CAPITALIZED (e.g., 'Train' -> 'TRAIN')
+            folder_display = raw_folder_name.upper()
             
-            # 4. Strip extension from file name
+            # 4. Remove .cpp extension for display
             file_name_with_ext = parts[-1]
             display_name = os.path.splitext(file_name_with_ext)[0]
             
             file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(path)}"
             
-            print(f"Adding: {display_name} from {folder_display}")
+            print(f"Adding: {display_name} in category {folder_display}")
             meta = fetch_file_metadata(path)
             
-            table_lines.append(f"| [{display_name}]({file_url}) | **{folder_display}** | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
+            # 5. Build the table row
+            table_lines.append(f"| [{display_name}]({file_url}) | `{folder_display}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
             
     return "\n".join(table_lines) if found_files else "*No .cpp files found.*"
 
