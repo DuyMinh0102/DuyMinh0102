@@ -1,3 +1,13 @@
+// Source: Problems/MTWALK.jpg, from a teacher of mine
+// Status: Solved
+/*Note: Given a N x N grid, find a 4 directional path from (1, 1) to (N, N) that minimizes
+the difference between the value of the largest and smallest cell on the path.
+Solution: Binary search the difference, use BFS to check if there exists a path with such difference or less.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 23/02/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 105;

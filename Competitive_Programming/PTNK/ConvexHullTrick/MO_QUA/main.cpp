@@ -1,3 +1,27 @@
+// Source: ptnkoj, Problems/moqua.png
+// Status: Solved
+/* 
+Note: There are n gifts, indexed 1 to n, the i-th gift has a weight w_i.
+You can open multiple gifts at the same time, but if you open gifts in a range [l, r],
+the cost will be (sum(w_i) for i in range [l, r])^2 + C,
+where C is a constant given in the input.
+Minimize the cost.
+
+Solution:
+let dp[i] be the minimum cost to open the first i gifts,
+we can either: open the i-th gift alone, or open it together with the previous gifts.
+we will now denote w_i as the sum of the first i weights.
+Then dp[i] = min(dp[j] + (w_i - w_j)^2 + C) for all j < i and i in range [1, n].
+Then, dp[i] will be w_i^2 + C - 2.w_i.w_j + w_j^2 + dp[j].
+We have a constant: w_i^2 + C.
+The remaining part is a linear function of w_i: (-2.w_j).w_i + (w_j^2 + dp[j]).
+We see that the slope is -2.w_j, b is w_j^2 + dp[j].
+We can use a convex hull trick and a deque to maintain the lines and query the minimum value
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 14/04/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

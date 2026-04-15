@@ -1,3 +1,19 @@
+// Source: Problems/DE09.pdf
+// Status: Solved
+/* 
+Note: You are given a tree, and a target that starts moving from vertex 1. If the target reaches a leaf, you lose.
+You can choose to place a guard at any vertex. A guard can move to an adjacent vertex in one second. 
+You win if you can catch the target before it reaches a leaf. What is the minimum number of guards you need to guarantee a win?
+
+Solution: DP on tree
+We calculate the distance from each vertex to the nearest leaf. And from the root to each vertex. 
+If the distance from the root to a vertex is greater than the distance from that vertex to the nearest leaf, 
+we need to place a guard at that vertex.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 09/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 2e5 + 5;

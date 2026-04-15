@@ -1,3 +1,14 @@
+// Source: Problems/unsolved/dtwice.jpg
+// Status: Solved
+/* 
+Note: Given n intergers and m queries.
+Each query is a pair of intergers u and v.
+Count the amount of distinct values within the range [u, v] that appears twice.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 23/02/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 3e5 + 5;

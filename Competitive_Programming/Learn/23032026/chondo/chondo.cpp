@@ -1,3 +1,12 @@
+// Source: Problems/solved/chondo.jpg, from a teacher of mine.
+// Status: Solved
+/* 
+Note: Just a classic 0/1 Knapsack problem.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 23/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

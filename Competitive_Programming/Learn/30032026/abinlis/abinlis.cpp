@@ -1,3 +1,15 @@
+// Source: Problems/solved/abinlis.jpg, from a teacher of mine.
+// Status: Solved
+/* 
+Note: Find the longest common non decreasing subsequence of two array A and B.
+Solution: we can test every possible amount of 0s from 1 to min(zero in A, zero in B), 
+the rest is determined by (1 to the right of i in A, 1 to the right of i in B). 
+We can precompute the suffix sum of 1s to get the answer in O(1) time. The complexity is O(n + m).
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 30/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 2e5 + 5;

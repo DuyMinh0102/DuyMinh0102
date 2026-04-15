@@ -1,3 +1,19 @@
+// Source: Problems/DE14.pdf
+// Status: Solved
+/* 
+Note: Given n positive intergers.
+For each prime factor of every interger, find the maximum exponent among the n integers. 
+Then calculate the product of all prime factors raised to their maximum exponent. 
+Since the answer can be very large, output it modulo 1e9 + 7.
+
+Solution: Prime sieve + frequency array  + binary exponentiation.
+Time complexity: 
+O(n log n) for the sieve, O(n log x) for processing the integers, where x is the maximum integer.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 09/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -67,7 +83,7 @@ int main(){
     for (int i = 1; i <= n; ++i){
         ll x; cin >> x;
 
-        //process(x);
+        process(x);
     }
 
     ll ans = 1;

@@ -1,3 +1,12 @@
+// Source: Problems/unsolved/dseq.jpg
+// Status: Unsolved
+/* 
+Note:
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

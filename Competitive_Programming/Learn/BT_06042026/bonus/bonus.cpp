@@ -1,3 +1,16 @@
+// Source: Problems/solved/bonus.jpg
+// Status: Solved
+/* Note: Whenever the amount of sold tickets is not divisble by any number in the range [2; 10],
+each employee will receive a bonus of 1000 VND.
+Calculate the amount of bonus each employee recive for N tickets sold.
+Solution: Not divisible by any number in the range [2; 10] <=> Not divisible by any prime number in the range [2; 10] <=> Not divisible by 2, 3, 5, 7.
+Use Inclusion-Exclusion Principle to calculate the amount of numbers in the range [1; N] that are not divisible by 2, 3, 5, 7.
+Time complexity O(1).
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 06/04/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
