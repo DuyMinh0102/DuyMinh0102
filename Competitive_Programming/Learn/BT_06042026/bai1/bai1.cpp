@@ -1,3 +1,18 @@
+// Source: Problems/solved/bai1.jpg
+// Status: Solved
+/* Note: an array A is an infinite array which follows the following rule:
+Pick 1 number that is divisibe by 1
+Then two next numbers that is divisible by 2
+Then for each number i, pick the next first i numbers that is divisible by i
+Find the n-th number in the array A.
+
+Solution: just compute it, since it's not that slow.
+Time complexity: O(n).
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 06/04/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

@@ -1,3 +1,19 @@
+// Source: Problems/solved/captoc.jpg
+// Status: Solved
+/* 
+Note: You have to distribute X days of studying across N subjects to maximize your score.
+A matrix A_ij is given where A_ij is the score you get it you spend j days to study subject i.
+Solution: A Bounded knapsack problem
+For every subject:
+    For every possible number of days to study:
+        For every possible number of days to study the previous subjects:
+            Update the maximum score.
+Time complexity: O(N.X^2)
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 30/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 105;

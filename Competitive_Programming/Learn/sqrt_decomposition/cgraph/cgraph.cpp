@@ -1,3 +1,15 @@
+// Source: Problems/unsolved/cgraph.jpg
+// Status: 80%
+/* 
+Note: Given an undirect graph with n vertices and m edges.
+Answer Q queries. Each query is a pair of intergers L and R.
+For each query, count the number of connected components in the graph formed by edges with indices
+within the range [L, R].
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 23/02/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

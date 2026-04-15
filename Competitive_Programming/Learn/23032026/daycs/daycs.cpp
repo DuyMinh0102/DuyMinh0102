@@ -1,3 +1,14 @@
+// Source: Problems/solved/daycs.jpg, from a teacher of mine
+// Status: Solved
+/* 
+Note: find the shortest common substring of A and B that occurs exactly once in each string.
+Solution: String hashing and O(N^2).
+String hashing: counting and quick comparison.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 23/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 string a, b;

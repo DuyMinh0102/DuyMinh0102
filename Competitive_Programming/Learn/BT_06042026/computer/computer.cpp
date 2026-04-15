@@ -1,3 +1,15 @@
+// Source: Problems/solved/computer.jpg
+// Status: Solved
+/* Note: Match N system units to N monitors. Each can be VGA only, DVI only or both.
+Find the maximmum number of compatible matchings.
+
+Soluton: Greedy. Match VGA to VGA, DVI to DVI, then match the remaining VGA and DVI to the both.
+Time complexity O(1).
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 06/04/2026
+*/ 
+
 #include <bits/stdc++.h>
 using namespace std;
 int a1, a2, a3, b1, b2, b3;

@@ -1,3 +1,21 @@
+// Source: Problems/solved/funbit.jpg
+// Status: Solved
+/* 
+Note: Given N non-negative intergers in the form of K bits.
+Find the longest contiguous subsequence such that when display all elements
+int the form of K bits, the nummber of 1s are equal for every bit.
+
+Track the running total of 1-bits for each of the K bit positions as you go through the array. 
+Because a valid subarray requires all bit positions to increase by the exact same amount, 
+you can simply record the differences between the running total of the 0-th bit and every other bit at each step; 
+whenever you encounter a pattern of differences you've seen before, 
+the subarray between those two points is perfectly balanced.
+Time complexity: O(N * K).
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 16/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

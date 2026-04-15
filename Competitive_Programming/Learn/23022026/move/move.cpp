@@ -1,3 +1,14 @@
+// Source: Problems/MOVE.jpg, from a teacher of mine
+// Status: Solved
+/* Note: Given an undirected graph with n (n <= 200) vertices, each node has a temperature t_i.
+Find a path from A to B that the maximum difference of temperature between two vertices is minimized.
+Output -1 if no path from A to B.
+Solution: Djikstra Algorithm.
+
+Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
+Date: 23/02/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 205, INF = 1e9;
