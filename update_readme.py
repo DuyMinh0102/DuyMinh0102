@@ -23,27 +23,46 @@ def get_repo_tree():
         return []
 
 def fetch_file_metadata(file_path):
-    """Fetches the raw file and extracts the Source, Status, and Note from comments."""
-    # Use raw.githubusercontent to avoid standard API rate limits for file content
     raw_url = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/{BRANCH}/{urllib.parse.quote(file_path)}"
     
     metadata = {"Source": "-", "Status": "-", "Note": "-"}
     try:
         req = urllib.request.Request(raw_url)
         with urllib.request.urlopen(req) as response:
-            # Read only the first 15 lines to save time/memory
-            for _ in range(15):
-                line = response.readline().decode('utf-8', errors='ignore').strip()
-                if not line:
+            lines = response.read().decode('utf-8', errors='ignore').splitlines()
+            
+            is_capturing_note = False
+            note_lines = []
+
+            for line in lines[:50]: # Increased limit to 50 to capture the whole block
+                clean_line = line.strip()
+                
+                # Capture Source and Status
+                if "Source:" in clean_line:
+                    metadata["Source"] = clean_line.split("Source:")[-1].strip()
+                if "Status:" in clean_line:
+                    metadata["Status"] = clean_line.split("Status:")[-1].strip()
+                
+                # Handle Multi-line Note
+                if "Note:" in clean_line:
+                    is_capturing_note = True
+                    # Take the text after "Note:" on the same line
+                    content = clean_line.split("Note:")[-1].strip()
+                    if content: note_lines.append(content)
                     continue
                 
-                # Extract metadata if the keywords exist in the line
-                if "Source:" in line:
-                    metadata["Source"] = line.split("Source:")[-1].strip()
-                if "Status:" in line:
-                    metadata["Status"] = line.split("Status:")[-1].strip()
-                if "Note:" in line:
-                    metadata["Note"] = line.split("Note:")[-1].strip()
+                if is_capturing_note:
+                    # Stop if we hit the end of the comment block or a signature
+                    if "*/" in clean_line or "Author:" in clean_line:
+                        is_capturing_note = False
+                        break
+                    # Append the line if it's not empty
+                    if clean_line:
+                        note_lines.append(clean_line)
+
+            if note_lines:
+                # Use <br> to create line breaks inside a Markdown table cell
+                metadata["Note"] = "<br>".join(note_lines)
                     
         return metadata
     except Exception as e:
@@ -83,6 +102,7 @@ def update_readme(markdown_content):
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
+    # Fixed Regex: specifically looks for your HTML comment markers
     pattern = r"(\n)(.*?)(\n)"
     replacement = f"\\g<1>{markdown_content}\\g<3>"
     
@@ -90,17 +110,3 @@ def update_readme(markdown_content):
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(new_readme)
-
-if __name__ == "__main__":
-    print("Fetching repository tree...")
-    tree = get_repo_tree()
-    
-    if tree:
-        print("Generating markdown table...")
-        markdown_table = generate_markdown_table(tree)
-        
-        print("Updating README.md...")
-        update_readme(markdown_table)
-        print("Done!")
-    else:
-        print("Could not retrieve repository data.")
