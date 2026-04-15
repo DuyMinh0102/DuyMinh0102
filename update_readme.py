@@ -57,6 +57,15 @@ def generate_markdown_table(tree):
     markdown = "| Problem / File | Folder | Source | Status | Notes |\n"
     markdown += "| --- | --- | --- | --- | --- |\n"
     found_files = False
+
+    def generate_markdown_table(tree):
+    
+    solved_count = sum(1 for item in tree if item['type'] == 'blob' and any(item['path'].startswith(f + "/") for f in TARGET_FOLDERS))
+
+    markdown = f"### ✅ Total Problems Tracked: {solved_count}\n\n"
+    markdown += "| Problem / File | Folder | Source | Status | Notes |\n"
+    markdown += "| --- | --- | --- | --- | --- |\n"
+    
     for item in tree:
         if item['type'] == 'blob' and any(item['path'].startswith(folder + "/") for folder in TARGET_FOLDERS):
             # Ignore README files inside folders
@@ -71,7 +80,8 @@ def generate_markdown_table(tree):
             print(f"Scanning {file_path}...")
             meta = fetch_file_metadata(file_path)
             markdown += f"| [{file_name}]({file_url}) | `{folder_name}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |\n"
-    return markdown if found_files else "*No problems found.*"
+    collapsible_table = f"<details>\n<summary><b>Click to expand my problem log 📋</b></summary>\n\n{markdown}\n</details>"
+    return collapsible_table if found_files else "*No problems found.*"
 
 def update_readme(markdown_content):
     try:
@@ -97,12 +107,17 @@ def update_readme(markdown_content):
     except Exception as e:
         print(f"Error updating README: {e}")
 
-# THIS IS THE PART THAT ACTUALLY RUNS THE CODE
 if __name__ == "__main__":
     print("Fetching repo data...")
     tree = get_repo_tree()
     if tree:
         table = generate_markdown_table(tree)
+        
+        # --- ADD THIS LINE FOR DEBUGGING ---
+        print("GENERATED MARKDOWN TABLE:")
+        print(table) 
+        # -----------------------------------
+        
         update_readme(table)
     else:
         print("Failed to fetch tree.")
