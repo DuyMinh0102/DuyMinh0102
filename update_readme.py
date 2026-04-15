@@ -32,7 +32,6 @@ def get_repo_tree():
 
 def fetch_file_metadata(file_path):
     raw_url = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/{BRANCH}/{urllib.parse.quote(file_path)}"
-    # Sortable fallback date
     metadata = {"Source": "-", "Status": "-", "Note": "-", "Date": "1970-01-01", "DisplayDate": "-"}
     try:
         req = urllib.request.Request(raw_url)
@@ -46,12 +45,10 @@ def fetch_file_metadata(file_path):
                 
                 # Parse Date: handles 15/04/2026
                 if "Date:" in clean_line:
-                    # Look for DD/MM/YYYY
                     date_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', clean_line)
                     if date_match:
                         raw_date = date_match.group(1)
                         try:
-                            # Convert to sortable YYYY-MM-DD
                             dt = datetime.strptime(raw_date, "%d/%m/%Y")
                             metadata["Date"] = dt.strftime("%Y-%m-%d")
                             metadata["DisplayDate"] = dt.strftime("%B %d, %Y")
@@ -85,21 +82,26 @@ def fetch_file_metadata(file_path):
 
 def get_status_badge(status_raw):
     status = status_raw.upper().strip()
+    # Replace % with %25 for URL safety
     label = status.replace('%', '%25')
     
-    # BLACK text on RED background for UNSOLVED
+    # Base URL for Shields.io with black text forcing
+    # We use labelColor and Color as the same to create a solid block
+    # logoColor=000000 (black) and naming the text in the message field
+    
     if any(x in status for x in ["UNSOLVED", "FAILED", "WA"]):
-        return f"![{status}](https://img.shields.io/badge/-**{label}**-FF0000?style=for-the-badge&labelColor=FF0000&logoColor=black)"
-    
-    # BLACK text on GREEN background for SOLVED
-    if any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
-        return f"![{status}](https://img.shields.io/badge/-**{label}**-00FF00?style=for-the-badge&labelColor=00FF00&logoColor=black)"
-    
-    # BLACK text on LIGHT GREEN for %
-    if "%" in status:
-        return f"![{status}](https://img.shields.io/badge/-**{label}**-90EE90?style=for-the-badge&labelColor=90EE90&logoColor=black)"
+        color = "FF0000" # Red
+    elif any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
+        color = "00FF00" # Green
+    elif "%" in status:
+        color = "90EE90" # Light Green
+    else:
+        color = "D3D3D3" # Grey
 
-    return f"![{status}](https://img.shields.io/badge/-**{label}**-D3D3D3?style=for-the-badge&labelColor=D3D3D3&logoColor=black)"
+    # Logic: -[Text]-[Color]?labelColor=[Color]&logoColor=000000
+    # Note: Shields.io uses 'logoColor' to affect icons, but 'labelColor' and 'color' 
+    # combined with forced black formatting is the most reliable way.
+    return f"![{status}](https://img.shields.io/badge/-**{label}**-{color}?style=for-the-badge&labelColor={color}&logoColor=000000)"
 
 def generate_markdown_table(tree):
     all_data = []
@@ -111,7 +113,6 @@ def generate_markdown_table(tree):
             meta = fetch_file_metadata(path)
             all_data.append({**item, **meta})
 
-    # Sort by the YYYY-MM-DD date (descending)
     all_data.sort(key=lambda x: x['Date'], reverse=True)
 
     table_lines = [
@@ -121,7 +122,6 @@ def generate_markdown_table(tree):
     
     last_date = None
     for item in all_data:
-        # Date separator header
         if item['Date'] != last_date:
             last_date = item['Date']
             table_lines.append(f"| **📅 {item['DisplayDate']}** | | | |")
