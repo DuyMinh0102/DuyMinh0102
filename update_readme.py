@@ -10,8 +10,8 @@ BRANCH = "main"
 TARGET_FOLDERS = ["Learn", "PTNK", "Train"]
 
 # VISIBLE MARKERS
-START_MARKER = "### 🧩 Problem solving log"
-END_MARKER = "---"
+START_MARKER = "[//]: # (START_TABLE)"
+END_MARKER = "[//]: # (END_TABLE)"
 # ---------------------
 
 def get_repo_tree():
@@ -81,25 +81,34 @@ def generate_markdown_table(tree):
 
 def update_readme(markdown_content):
     try:
+        # 1. Read the current file
         with open("README.md", "r", encoding="utf-8") as f:
-            content = f.read()
+            full_text = f.read()
 
-        if START_MARKER not in content or END_MARKER not in content:
-            print(f"⚠️ Markers not found! Make sure {START_MARKER} and {END_MARKER} are in README.md")
+        # 2. Check if markers exist
+        if START_MARKER not in full_text or END_MARKER not in full_text:
+            print(f"❌ FAILED: Could not find markers in README.md")
+            print(f"Make sure your README contains: {START_MARKER}")
             return
 
-        # Regex: find everything between the markers and replace it
+        # 3. Use a Regex that handles ANY amount of whitespace/newlines between markers
+        # The '?' makes it non-greedy so it doesn't delete the whole file if you have multiple tables
         pattern = rf"{re.escape(START_MARKER)}.*?{re.escape(END_MARKER)}"
-        new_block = f"{START_MARKER}\n\n{markdown_content}\n\n{END_MARKER}"
         
-        updated_content = re.sub(pattern, new_block, content, flags=re.DOTALL)
+        replacement = f"{START_MARKER}\n\n{markdown_content}\n\n{END_MARKER}"
+        
+        new_content = re.sub(pattern, replacement, full_text, flags=re.DOTALL)
 
+        # 4. Write back
         with open("README.md", "w", encoding="utf-8") as f:
-            f.write(updated_content)
-        print("✅ README.md has been updated.")
+            f.write(new_content)
+            
+        print("✅ Success! README.md updated.")
 
+    except FileNotFoundError:
+        print("❌ Error: README.md not found in this directory.")
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"❌ An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
     print("🚀 Starting sync...")
