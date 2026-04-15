@@ -102,12 +102,17 @@ def update_readme(markdown_content):
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # This regex looks for the specific START and END comments
-    pattern = r"(\n)(.*?)(\n)"
+    # The markers MUST exist in your README.md exactly like this
+    start_marker = ""
+    end_marker = ""
     
-    # We use \g<1> and \g<3> to keep the markers themselves in the file
+    pattern = rf"({start_marker}\n)(.*?)(\n{end_marker})"
+    
+    if start_marker not in readme or end_marker not in readme:
+        print("Error: Markers not found in README.md!")
+        return
+
     replacement = f"\\g<1>{markdown_content}\\g<3>"
-    
     new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
     with open("README.md", "w", encoding="utf-8") as f:
