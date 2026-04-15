@@ -8,6 +8,10 @@ GITHUB_USERNAME = "DuyMinh0102"
 PROBLEMS_REPO = "Competitive_Programming"
 BRANCH = "main"
 TARGET_FOLDERS = ["Learn", "PTNK", "Train"]
+
+# VISIBLE MARKERS
+START_MARKER = ""
+END_MARKER = ""
 # ---------------------
 
 def get_repo_tree():
@@ -21,6 +25,7 @@ def get_repo_tree():
         return []
 
 def fetch_file_metadata(file_path):
+    # (Keeping your existing logic for fetching metadata)
     raw_url = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/{BRANCH}/{urllib.parse.quote(file_path)}"
     metadata = {"Source": "-", "Status": "-", "Note": "-"}
     try:
@@ -45,79 +50,60 @@ def fetch_file_metadata(file_path):
                         is_capturing_note = False
                         break
                     if clean_line:
-                        note_lines.append(clean_line)
+                        note_lines.append(clean_line.replace('|', 'I'))
             if note_lines:
                 metadata["Note"] = "<br>".join(note_lines)
         return metadata
-    except Exception as e:
-        print(f"Failed to fetch {file_path}: {e}")
+    except Exception:
         return metadata
 
 def generate_markdown_table(tree):
-    markdown = "| Problem / File | Folder | Source | Status | Notes |\n"
-    markdown += "| --- | --- | --- | --- | --- |\n"
+    table_lines = [
+        "| Problem / File | Folder | Source | Status | Notes |",
+        "| :--- | :--- | :--- | :--- | :--- |"
+    ]
     found_files = False
-
-    def generate_markdown_table(tree):
-    
-    solved_count = sum(1 for item in tree if item['type'] == 'blob' and any(item['path'].startswith(f + "/") for f in TARGET_FOLDERS))
-
-    markdown = f"### ✅ Total Problems Tracked: {solved_count}\n\n"
-    markdown += "| Problem / File | Folder | Source | Status | Notes |\n"
-    markdown += "| --- | --- | --- | --- | --- |\n"
-    
     for item in tree:
-        if item['type'] == 'blob' and any(item['path'].startswith(folder + "/") for folder in TARGET_FOLDERS):
-            # Ignore README files inside folders
-            if item['path'].lower().endswith('.md'): continue
-            
+        if item['type'] == 'blob' and any(item['path'].startswith(f + "/") for f in TARGET_FOLDERS):
+            if item['path'].lower().endswith(('.md', '.png', '.jpg', '.txt')):
+                continue
             found_files = True
-            file_path = item['path']
-            file_name = file_path.split('/')[-1]
-            folder_name = file_path.split('/')[0]
-            file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(file_path)}"
+            path = item['path']
+            name = path.split('/')[-1]
+            folder = path.split('/')[0]
+            url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(path)}"
             
-            print(f"Scanning {file_path}...")
-            meta = fetch_file_metadata(file_path)
-            markdown += f"| [{file_name}]({file_url}) | `{folder_name}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |\n"
-    collapsible_table = f"<details>\n<summary><b>Click to expand my problem log 📋</b></summary>\n\n{markdown}\n</details>"
-    return collapsible_table if found_files else "*No problems found.*"
+            print(f"Parsing: {name}")
+            meta = fetch_file_metadata(path)
+            table_lines.append(f"| [{name}]({url}) | `{folder}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
+            
+    return "\n".join(table_lines) if found_files else "*No files found matching criteria.*"
 
 def update_readme(markdown_content):
     try:
         with open("README.md", "r", encoding="utf-8") as f:
-            readme = f.read()
+            content = f.read()
 
-        start_marker = ""
-        end_marker = ""
-
-        if start_marker not in readme or end_marker not in readme:
-            print(f"Error: Markers not found in README.md!")
+        if START_MARKER not in content or END_MARKER not in content:
+            print(f"⚠️ Markers not found! Make sure {START_MARKER} and {END_MARKER} are in README.md")
             return
 
-        # re.escape ensures the special characters in the markers don't break the regex
-        pattern = rf"({re.escape(start_marker)}\n)(.*?)(\n{re.escape(end_marker)})"
-        replacement = f"\\g<1>{markdown_content}\\g<3>"
+        # Regex: find everything between the markers and replace it
+        pattern = rf"{re.escape(START_MARKER)}.*?{re.escape(END_MARKER)}"
+        new_block = f"{START_MARKER}\n\n{markdown_content}\n\n{END_MARKER}"
         
-        new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
+        updated_content = re.sub(pattern, new_block, content, flags=re.DOTALL)
 
         with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new_readme)
-        print("README updated successfully locally.")
+            f.write(updated_content)
+        print("✅ README.md has been updated.")
+
     except Exception as e:
-        print(f"Error updating README: {e}")
+        print(f"❌ Error: {e}")
 
 if __name__ == "__main__":
-    print("Fetching repo data...")
-    tree = get_repo_tree()
-    if tree:
-        table = generate_markdown_table(tree)
-        
-        # --- ADD THIS LINE FOR DEBUGGING ---
-        print("GENERATED MARKDOWN TABLE:")
-        print(table) 
-        # -----------------------------------
-        
+    print("🚀 Starting sync...")
+    repo_tree = get_repo_tree()
+    if repo_tree:
+        table = generate_markdown_table(repo_tree)
         update_readme(table)
-    else:
-        print("Failed to fetch tree.")
