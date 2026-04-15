@@ -10,7 +10,7 @@ BRANCH = "main"
 TARGET_FOLDERS = ["Learn", "PTNK", "Train"]
 
 # VISIBLE MARKERS
-START_MARKER = ""
+START_MARKER = "### 🧩 Problem solving log"
 END_MARKER = ""
 # ---------------------
 
