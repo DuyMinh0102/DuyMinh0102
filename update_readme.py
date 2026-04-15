@@ -81,29 +81,32 @@ def generate_markdown_table(tree):
     for item in tree:
         path = item['path']
         
-        # 1. Check if the file is in our target folders
+        # 1. Filter: Blobs only (files), inside target folders, and .cpp extension
         if item['type'] == 'blob' and any(path.startswith(f + "/") for f in TARGET_FOLDERS):
-            
-            # 2. ONLY take .cpp files
             if not path.lower().endswith('.cpp'):
                 continue
             
             found_files = True
-            
-            # 3. Get the folder name (e.g., 'Train')
             parts = path.split('/')
-            folder_display = parts[1] if len(parts) > 1 else parts[0]
             
-            # 4. Get the file name AND strip the extension
-            full_file_name = parts[-1]
-            display_name = os.path.splitext(full_file_name)[0] # "problem.cpp" -> "problem"
+            # 2. Get the folder directly containing the file
+            # In 'Competitive_Programming/Train/Problem.cpp', parts[-2] is 'Train'
+            raw_folder_name = parts[-2] if len(parts) > 1 else "Root"
+            
+            # 3. Capitalize (e.g., 'train' -> 'Train' or 'ptnk' -> 'Ptnk')
+            # If you want it all caps (PTNK), use .upper() instead
+            folder_display = raw_folder_name.capitalize()
+            
+            # 4. Strip extension from file name
+            file_name_with_ext = parts[-1]
+            display_name = os.path.splitext(file_name_with_ext)[0]
             
             file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(path)}"
             
-            print(f"Parsing: {full_file_name}")
+            print(f"Adding: {display_name} from {folder_display}")
             meta = fetch_file_metadata(path)
             
-            table_lines.append(f"| [{display_name}]({file_url}) | `{folder_display}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
+            table_lines.append(f"| [{display_name}]({file_url}) | **{folder_display}** | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
             
     return "\n".join(table_lines) if found_files else "*No .cpp files found.*"
 
