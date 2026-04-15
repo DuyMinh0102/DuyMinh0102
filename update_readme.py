@@ -27,7 +27,7 @@ def get_repo_tree():
         with urllib.request.urlopen(req) as response:
             return json.loads(response.read().decode())['tree']
     except Exception as e:
-        print(f"Error fetching tree: {e}")
+        print(f"Error tree: {e}")
         return []
 
 def fetch_file_metadata(file_path):
@@ -42,8 +42,6 @@ def fetch_file_metadata(file_path):
             
             for line in lines[:60]:
                 clean_line = line.strip()
-                
-                # Parse Date: DD/MM/YYYY
                 if "Date:" in clean_line:
                     date_match = re.search(r'(\d{1,2}/\d{1,2}/\d{4})', clean_line)
                     if date_match:
@@ -57,7 +55,6 @@ def fetch_file_metadata(file_path):
                 
                 if "Source:" in clean_line:
                     metadata["Source"] = clean_line.split("Source:")[-1].strip()
-                
                 if "Status:" in clean_line:
                     metadata["Status"] = clean_line.split("Status:")[-1].strip()
                 
@@ -81,30 +78,29 @@ def fetch_file_metadata(file_path):
         return metadata
 
 def get_status_display(status_raw):
-    """Replaces Shields.io with high-contrast text and status emojis."""
+    """Uses pencil-like emoji circles and high-contrast text tags."""
     status = status_raw.upper().strip()
     
+    # SOLVED: Green Circle
     if any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
-        # Green Square + Bold text
-        return f"🟢 **{status}**"
+        return f"🟢 ` {status} `"
     
+    # UNSOLVED: Red Circle
     if any(x in status for x in ["UNSOLVED", "FAILED", "WA"]):
-        # Red Square + Bold text
-        return f"🔴 **{status}**"
+        return f"🔴 ` {status} `"
     
+    # PERCENTAGE: Yellow/Orange Circle
     if "%" in status:
-        # Yellow/Orange Square for progress
-        return f"🟡 **{status}**"
+        return f"🟡 ` {status} `"
 
-    return f"⚪ {status}"
+    return f"⚪ ` {status} `"
 
 def generate_markdown_table(tree):
     all_data = []
     for item in tree:
         path = item['path']
         if item['type'] == 'blob' and any(path.startswith(f + "/") for f in TARGET_FOLDERS):
-            if not path.lower().endswith('.cpp'):
-                continue
+            if not path.lower().endswith('.cpp'): continue
             meta = fetch_file_metadata(path)
             all_data.append({**item, **meta})
 
@@ -144,7 +140,7 @@ def update_readme(markdown_content):
         new_readme = re.sub(pattern, replacement, content, flags=re.DOTALL)
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_readme)
-        print("Success! README updated with native GitHub formatting.")
+        print("Success!")
     except Exception as e:
         print(f"Error: {e}")
 
