@@ -102,8 +102,10 @@ def update_readme(markdown_content):
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # Fixed Regex: specifically looks for your HTML comment markers
+    # This regex looks for the specific START and END comments
     pattern = r"(\n)(.*?)(\n)"
+    
+    # We use \g<1> and \g<3> to keep the markers themselves in the file
     replacement = f"\\g<1>{markdown_content}\\g<3>"
     
     new_readme = re.sub(pattern, replacement, readme, flags=re.DOTALL)
