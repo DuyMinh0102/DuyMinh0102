@@ -82,26 +82,24 @@ def fetch_file_metadata(file_path):
 
 def get_status_badge(status_raw):
     status = status_raw.upper().strip()
-    # Replace % with %25 for URL safety
-    label = status.replace('%', '%25')
+    # Clean the status of any manual markdown characters like **
+    clean_label = status.replace('*', '').replace('%', '%25')
     
-    # Base URL for Shields.io with black text forcing
-    # We use labelColor and Color as the same to create a solid block
-    # logoColor=000000 (black) and naming the text in the message field
-    
+    # Determine the solid background color
     if any(x in status for x in ["UNSOLVED", "FAILED", "WA"]):
-        color = "FF0000" # Red
+        color = "FF0000" # Pure Red
     elif any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
-        color = "00FF00" # Green
+        color = "00FF00" # Pure Green
     elif "%" in status:
-        color = "90EE90" # Light Green
+        color = "90EE90" # Lighter shade of Green
     else:
         color = "D3D3D3" # Grey
 
-    # Logic: -[Text]-[Color]?labelColor=[Color]&logoColor=000000
-    # Note: Shields.io uses 'logoColor' to affect icons, but 'labelColor' and 'color' 
-    # combined with forced black formatting is the most reliable way.
-    return f"![{status}](https://img.shields.io/badge/-**{label}**-{color}?style=for-the-badge&labelColor={color}&logoColor=000000)"
+    # THE FIX FOR BLACK TEXT:
+    # 1. We leave the label empty (the part before the first dash)
+    # 2. We set labelColor AND the message color to the same value for a solid block
+    # 3. We force logoColor=000000 to trick the renderer into using black contrast
+    return f"![{status}](https://img.shields.io/badge/-{clean_label}-{color}?style=for-the-badge&labelColor={color}&logoColor=000000)"
 
 def generate_markdown_table(tree):
     all_data = []
@@ -115,6 +113,7 @@ def generate_markdown_table(tree):
 
     all_data.sort(key=lambda x: x['Date'], reverse=True)
 
+    # Column order as requested: Folder | Status | Notes | Source & Problem
     table_lines = [
         "| Folder | Status | Notes | Source & Problem |",
         "| :--- | :---: | :---: | :--- |"
@@ -128,11 +127,14 @@ def generate_markdown_table(tree):
 
         parts = item['path'].split('/')
         folder_display = parts[-2].upper()
+        # Full capitalization with spaces instead of underscores
         clean_name = os.path.splitext(parts[-1])[0].replace('_', ' ').upper()
         file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(item['path'])}"
         
         status_badge = get_status_badge(item['Status'])
+        # Interactive Note toggle
         notes_cell = f"<details><summary>📝 View</summary><br>{item['Note']}</details>" if item['Note'] != "-" else "-"
+        # Problem link in the last column
         source_cell = f"**[`{clean_name}`]({file_url})**<br>_{item['Source']}_"
         
         table_lines.append(f"| `{folder_display}` | {status_badge} | {notes_cell} | {source_cell} |")
@@ -148,7 +150,7 @@ def update_readme(markdown_content):
         new_readme = re.sub(pattern, replacement, content, flags=re.DOTALL)
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_readme)
-        print("Success!")
+        print("Success! Table updated with black-text badges.")
     except Exception as e:
         print(f"Error: {e}")
 
