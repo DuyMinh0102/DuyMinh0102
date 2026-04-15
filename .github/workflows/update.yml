@@ -27,18 +27,11 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-                git config --global user.name "github-actions[bot]"
-                git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                
-                # 1. Sync with the remote first (while index is clean)
-                git fetch origin main
-                git pull --rebase origin main
-                
-                # 2. Now that we are synced, stage the changes made by the python script
-                git add README.md
-                
-                # 3. Commit only if the README actually changed
-                git commit -m "docs: dynamically update solved problems list" || echo "No changes to commit"
-                
-                # 4. Push safely
-                git push origin main
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git stash
+          git pull --rebase origin main
+          git stash pop || echo "No changes to pop"
+          git add README.md
+          git commit -m "docs: dynamically update solved problems list" || echo "No changes to commit"
+          git push origin main
