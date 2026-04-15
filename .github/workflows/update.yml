@@ -28,9 +28,8 @@ jobs:
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          # The magic happens here: pull latest changes to avoid conflicts
-          git pull --rebase origin main 
+          git pull --rebase origin main
           git commit -m "docs: dynamically update solved problems list" || exit 0
           git push origin main
