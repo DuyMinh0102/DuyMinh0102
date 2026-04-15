@@ -11,7 +11,7 @@ TARGET_FOLDERS = ["Learn", "PTNK", "Train"]
 
 # VISIBLE MARKERS
 START_MARKER = "### 🧩 Problem solving log"
-END_MARKER = ""
+END_MARKER = "---"
 # ---------------------
 
 def get_repo_tree():
