@@ -78,22 +78,25 @@ def fetch_file_metadata(file_path):
         return metadata
 
 def get_status_display(status_raw):
-    """Uses pencil-like emoji circles and high-contrast text tags."""
+    """
+    Fixed: Uses high-texture circles and ensures circle and text 
+    stay on the same line.
+    """
     status = status_raw.upper().strip()
     
-    # SOLVED: Green Circle
-    if any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
-        return f"🟢 ` {status} `"
-    
-    # UNSOLVED: Red Circle
+    # Check for UNSOLVED first to ensure it doesn't default to green
     if any(x in status for x in ["UNSOLVED", "FAILED", "WA"]):
-        return f"🔴 ` {status} `"
+        return f"🔴&nbsp;` {status} `"
     
-    # PERCENTAGE: Yellow/Orange Circle
+    # SOLVED: Green high-texture circle
+    if any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
+        return f"🟢&nbsp;` {status} `"
+    
+    # PERCENTAGE: Yellow high-texture circle
     if "%" in status:
-        return f"🟡 ` {status} `"
+        return f"🟡&nbsp;` {status} `"
 
-    return f"⚪ ` {status} `"
+    return f"⚪&nbsp;` {status} `"
 
 def generate_markdown_table(tree):
     all_data = []
@@ -106,7 +109,6 @@ def generate_markdown_table(tree):
 
     all_data.sort(key=lambda x: x['Date'], reverse=True)
 
-    # Column order: Folder | Status | Notes | Source & Problem
     table_lines = [
         "| Folder | Status | Notes | Source & Problem |",
         "| :--- | :--- | :---: | :--- |"
