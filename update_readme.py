@@ -72,16 +72,17 @@ def fetch_file_metadata(file_path):
         return metadata
 
 def generate_markdown_table(tree):
+    # 1. Removed "Problem / File" from the header
     table_lines = [
-        "| Problem / File | Folder | Source | Status | Notes |",
-        "| :--- | :--- | :--- | :--- | :--- |"
+        "| Folder | Source | Status | Notes |",
+        "| :--- | :--- | :--- | :--- |"
     ]
     found_files = False
     
     for item in tree:
         path = item['path']
         
-        # 1. Filter: Blobs (files) within target folders with .cpp extension
+        # Filter: Blobs within target folders with .cpp extension
         if item['type'] == 'blob' and any(path.startswith(f + "/") for f in TARGET_FOLDERS):
             if not path.lower().endswith('.cpp'):
                 continue
@@ -89,24 +90,33 @@ def generate_markdown_table(tree):
             found_files = True
             parts = path.split('/')
             
-            # 2. Get the immediate parent folder
-            # In 'Competitive_Programming/Train/Problem.cpp', parts[-2] is 'Train'
+            # 2. Folder name fully capitalized
             raw_folder_name = parts[-2] if len(parts) > 1 else "ROOT"
-            
-            # 3. Transform to FULLY CAPITALIZED (e.g., 'Train' -> 'TRAIN')
             folder_display = raw_folder_name.upper()
             
-            # 4. Remove .cpp extension for display
-            file_name_with_ext = parts[-1]
-            display_name = os.path.splitext(file_name_with_ext)[0]
-            
+            # 3. Strip extension for the link name
+            display_name = os.path.splitext(parts[-1])[0]
             file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(path)}"
             
-            print(f"Adding: {display_name} in category {folder_display}")
+            # 4. Fetch metadata
             meta = fetch_file_metadata(path)
             
-            # 5. Build the table row
-            table_lines.append(f"| [{display_name}]({file_url}) | `{folder_display}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
+            # 5. Create the "Click to view" Notes column using <details>
+            # We put the problem link inside the Source or Folder column if you want, 
+            # but here I will attach the link to the Source column or just make the Notes expandable.
+            
+            note_content = meta['Note']
+            if note_content and note_content != "-":
+                # This creates a clickable "View Note" dropdown
+                formatted_note = f"<details><summary>View Note</summary>{note_content}</details>"
+            else:
+                formatted_note = "-"
+
+            # 6. Build row (Problem Name is now combined with Source or Folder)
+            # Since you removed the Problem column, I've put the [Problem Name] link in the Source column.
+            source_with_link = f"[{display_name}]({file_url})<br><sub>{meta['Source']}</sub>"
+            
+            table_lines.append(f"| **{folder_display}** | {source_with_link} | {meta['Status']} | {formatted_note} |")
             
     return "\n".join(table_lines) if found_files else "*No .cpp files found.*"
 
