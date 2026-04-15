@@ -18,7 +18,7 @@ bool is_bad(line l1, line l2, line l3){
 
 int main(){
     cin.tie(0) -> sync_with_stdio(0);
-
+    
     cin >> n >> c;
 
     for (int i = 1; i <= n; ++i){
