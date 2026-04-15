@@ -74,7 +74,7 @@ def fetch_file_metadata(file_path):
 def generate_markdown_table(tree):
     # 1. Removed "Problem / File" from the header
     table_lines = [
-        "| Folder | Source | Status | Notes |",
+        "| Problem | Source | Status | Notes |",
         "| :--- | :--- | :--- | :--- |"
     ]
     found_files = False
