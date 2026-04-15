@@ -77,21 +77,35 @@ def generate_markdown_table(tree):
         "| :--- | :--- | :--- | :--- | :--- |"
     ]
     found_files = False
+    
     for item in tree:
-        if item['type'] == 'blob' and any(item['path'].startswith(f + "/") for f in TARGET_FOLDERS):
-            if item['path'].lower().endswith(('.md', '.png', '.jpg', '.txt')):
+        path = item['path']
+        
+        # 1. Check if the file is in our target folders
+        if item['type'] == 'blob' and any(path.startswith(f + "/") for f in TARGET_FOLDERS):
+            
+            # 2. ONLY take .cpp files
+            if not path.lower().endswith('.cpp'):
                 continue
+            
             found_files = True
-            path = item['path']
-            name = path.split('/')[-1]
-            folder = path.split('/')[0]
-            url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(path)}"
             
-            print(f"Parsing: {name}")
+            # 3. Get the folder name (e.g., 'Train')
+            parts = path.split('/')
+            folder_display = parts[1] if len(parts) > 1 else parts[0]
+            
+            # 4. Get the file name AND strip the extension
+            full_file_name = parts[-1]
+            display_name = os.path.splitext(full_file_name)[0] # "problem.cpp" -> "problem"
+            
+            file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(path)}"
+            
+            print(f"Parsing: {full_file_name}")
             meta = fetch_file_metadata(path)
-            table_lines.append(f"| [{name}]({url}) | `{folder}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
             
-    return "\n".join(table_lines) if found_files else "*No files found matching criteria.*"
+            table_lines.append(f"| [{display_name}]({file_url}) | `{folder_display}` | {meta['Source']} | {meta['Status']} | {meta['Note']} |")
+            
+    return "\n".join(table_lines) if found_files else "*No .cpp files found.*"
 
 def update_readme(markdown_content):
     try:
