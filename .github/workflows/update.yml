@@ -29,7 +29,18 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 1. Fetch latest state
+          git fetch origin main
+          
+          # 2. Stage the README change
           git add README.md
-          git pull --rebase origin main
-          git commit -m "docs: dynamically update solved problems list" || exit 0
+          
+          # 3. Pull with rebase, favoring our script's version of README.md if there's a conflict
+          git pull --rebase -X theirs origin main
+          
+          # 4. Commit (only if there are changes)
+          git commit -m "docs: dynamically update solved problems list" || echo "No changes to commit"
+          
+          # 5. Push
           git push origin main
