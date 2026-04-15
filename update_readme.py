@@ -2,12 +2,20 @@ import urllib.request
 import json
 import re
 import urllib.parse
+import os
 
 # --- CONFIGURATION ---
 GITHUB_USERNAME = "DuyMinh0102"
-PROBLEMS_REPO = "Competitive_Programming"
+PROBLEMS_REPO = "DuyMinh0102"  # Change this from "Competitive_Programming"
 BRANCH = "main"
-TARGET_FOLDERS = ["Learn", "PTNK", "Train"]
+
+# Since Competitive_Programming is a folder, we must include it in the target paths
+TARGET_FOLDERS = [
+    "Competitive_Programming/Learn", 
+    "Competitive_Programming/PTNK", 
+    "Competitive_Programming/Train"
+]
+# ---------------------
 
 # VISIBLE MARKERS
 START_MARKER = "[//]: # (START_TABLE)"
@@ -18,6 +26,12 @@ def get_repo_tree():
     url = f"https://api.github.com/repos/{GITHUB_USERNAME}/{PROBLEMS_REPO}/git/trees/{BRANCH}?recursive=1"
     try:
         req = urllib.request.Request(url)
+        
+        # This looks for the token provided by GitHub Actions
+        token = os.getenv("GITHUB_TOKEN")
+        if token:
+            req.add_header("Authorization", f"token {token}")
+            
         with urllib.request.urlopen(req) as response:
             return json.loads(response.read().decode())['tree']
     except Exception as e:
