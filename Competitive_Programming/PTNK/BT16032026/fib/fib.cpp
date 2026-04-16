@@ -1,3 +1,19 @@
+// Source: Problems/BT_20260316.pdf
+// Status: Solved
+/*
+Note: Given four intergers a, b, L, R and m.
+Calculate: (f[L] + f[L + 1] + ... + f[R]) mod m where:
+f[1] = a
+f[2] = b
+f[n] = f[n - 1] + f[n - 2] for n > 2
+
+Solution: Calculating fibonacci using matrix multiplication.
+Then perform subtraction.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 16/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

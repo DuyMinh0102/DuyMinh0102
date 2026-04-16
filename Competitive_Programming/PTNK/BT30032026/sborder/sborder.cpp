@@ -1,3 +1,16 @@
+// Source: Problems/BT_20260330.pdf
+// Status: Solved
+/*
+Note: A string Q is considered a border if both the prefix and the suffix of the string equals to Q.
+A string can have multiple borders.
+Find all borders of S. Output: print out the length of different borders of S.
+
+Solution: Z-function.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date:
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int len;

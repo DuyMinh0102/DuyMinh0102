@@ -1,3 +1,15 @@
+// Source: Problems/BT_20260316.pdf
+// Status: Solved
+/*
+Note: T testcases. Given three intergers a, b, n. Calculate F_n (F is Fibonacci).
+Where: F_0 = a, F_1 = b, F_n = F_(n - 1) + F_(n - 2) for n > 1.
+
+Solution: Matrix Multi + Matrix Expo.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 16/03/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

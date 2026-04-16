@@ -1,3 +1,15 @@
+// Source: Problems/BT_20260330.pdf
+// Status: Solved
+/*
+Note: Given two string T and P.
+Count how many windows size k in T that P appears within.
+
+Solution: Hash and count. (actually it's Rabin Karp)
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date:
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

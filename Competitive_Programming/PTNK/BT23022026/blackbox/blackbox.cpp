@@ -1,3 +1,14 @@
+// Source: Problems/BT_20260223.pdf
+// Status: Solved
+/*
+Note: Read the pdf file please, it's too long to summarize.
+
+Solution: Equations.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date:
+*/
+
 #include <bits/stdc++.h>
 #define ll long double
 using namespace std;
