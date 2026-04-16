@@ -1,4 +1,4 @@
-// Source: Problems/MTWALK.jpg, from a teacher of mine
+// Source: Problems/MTWALK.jpg
 // Status: Solved
 /*Note: Given a N x N grid, find a 4 directional path from (1, 1) to (N, N) that minimizes
 the difference between the value of the largest and smallest cell on the path.

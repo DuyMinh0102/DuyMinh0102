@@ -1,4 +1,4 @@
-// Source: Problems/solved/chondo.jpg, from a teacher of mine.
+// Source: Problems/solved/chondo.jpg
 // Status: Solved
 /* 
 Note: Just a classic 0/1 Knapsack problem.

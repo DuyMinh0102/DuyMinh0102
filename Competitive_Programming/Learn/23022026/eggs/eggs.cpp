@@ -1,4 +1,4 @@
-// Source: Problems/EGGS.jpg, from a teacher of mine
+// Source: Problems/EGGS.jpg
 // Status: Solved
 /* Note: You have M boxes and N eggs.
 The N eggs are put onto a production belt in order, the i-th egg has a volume of A_i. At the end are the boxes.

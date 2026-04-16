@@ -1,3 +1,16 @@
+// Source: Problems/BT_20260413
+// Status: Solved
+/*
+Note: Given N boxes with different sizes a_i. You can fit the i box into the j box if:
+The i box is empty, and a_i + k <= a_j.
+Fit all the boxes in a way the the total size left is minimize.
+
+Solution: Binary search.
+
+Author: Nguyen Duy Minh - High School for the Gifted, VNU - HCM
+Date: 13/04/2026
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

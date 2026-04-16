@@ -1,4 +1,4 @@
-// Source: Problems/solved/muanha.jpg, from a teacher of mine
+// Source: Problems/solved/muanha.jpg
 // Status: Solved
 /* 
 Note: Given an array of n positive intergers and a parameter k = 0 or k = 1.
