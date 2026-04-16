@@ -6,7 +6,7 @@ Note: Read the pdf file please, it's too long to summarize.
 Solution: Equations.
 
 Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
-Date:
+Date: 23/02/2026 (DD/MM/YYYY).
 */
 
 #include <bits/stdc++.h>

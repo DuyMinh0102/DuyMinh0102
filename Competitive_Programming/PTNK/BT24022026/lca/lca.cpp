@@ -1,3 +1,14 @@
+// Source: Ilostthesauce
+// Status: Solved
+/*
+Note: Just basic LCA with binary lifting.
+
+Solution: Mentioned in the note.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 24/02/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e5 + 5, lg = 18;

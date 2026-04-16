@@ -1,3 +1,14 @@
+// Source: Ilostthesauce
+// Status: Solved
+/*
+Note: Lowest common acestor of u and v if r is the root.
+
+Solution: Graph theory, which I don't understand, really.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 24/02/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e5 + 5, lg = 18;

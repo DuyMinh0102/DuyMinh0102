@@ -1,3 +1,14 @@
+// Source: Ilostthesauce
+// Status: Solved
+/*
+Note: Find the lowest common ancestor of two nodes.
+
+Solution: There's only one query, and the constraints are small (if I remember correctly, since Ilostthesauce), I just brute force it.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 24/02/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e4 + 5;

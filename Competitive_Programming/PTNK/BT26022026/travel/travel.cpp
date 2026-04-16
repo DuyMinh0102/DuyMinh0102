@@ -1,3 +1,14 @@
+// Source: Problems/BT_20260226.pdf
+// Status: Unsolved.
+/*
+Note: I don't even understand the problem.
+
+Solution:
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 26/02/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
