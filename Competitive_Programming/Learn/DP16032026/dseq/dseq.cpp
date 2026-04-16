@@ -4,7 +4,7 @@
 Note:
 
 Author: Nguyen Duy  Minh - High School for the Gifted, VNU-HCM.
-Date: 
+Date: 16/03/2026 (DD/MM/YYYY)
 */
 
 #include <bits/stdc++.h>

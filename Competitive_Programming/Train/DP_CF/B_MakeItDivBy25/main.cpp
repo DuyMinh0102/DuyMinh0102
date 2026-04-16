@@ -1,3 +1,16 @@
+// Source: https://codeforces.com/problemset/problem/1593/B
+// Status: Solved
+/*
+Note: T testcases. Then N strings. For each string, print out the minimum number of operations (in this case, removing numbers)
+so that it is divisble by 25
+
+Solution: A number is divisble by 25 if it ends with "00", "25", "50" or "75".
+We brute force with each case in order of 'Y' to 'X' for a case 'XY'.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 07/04/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
