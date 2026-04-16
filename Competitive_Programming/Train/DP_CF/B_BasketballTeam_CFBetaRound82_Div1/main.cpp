@@ -1,3 +1,15 @@
+// Source: https://codeforces.com/problemset/problem/107/B
+// Status: Solved
+/*
+Note: Given intergers n (players on the team), m (number of departments), h (Herr Wafa's department).
+Then m intergers, number of students in the i-th department, h-th includes Herr Wafa's.
+
+Solution: Basic combinatorics problem.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 12/04/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;

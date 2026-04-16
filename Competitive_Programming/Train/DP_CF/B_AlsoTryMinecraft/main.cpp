@@ -1,3 +1,19 @@
+// Source: https://codeforces.com/problemset/problem/1709/B
+// Status: Solved
+/*
+Note: Given N columns and M quests. If the next column you go to is lower than the current, take some damage equal to the difference.
+Else, no damage.
+Determine the total damage taken for each quest.
+each quest you are given two int l and r.
+l can be greater than r, meaning going backwards
+
+Solution: A two way prefix
+if l > r, use the backward prefix, else the forward prefix.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 08/04/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

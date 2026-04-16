@@ -1,3 +1,17 @@
+// Source: https://codeforces.com/problemset/problem/1973/A
+// Status: Solved
+/*
+Note: T testcases. Given points of three friends. You get 0 for losing, 1 for drawing and 2 for winning.
+Count the maximum amount of draws that could've happen. Or -1 if the scores are impossible to achieve.
+
+Solution: The code is pretty simple so you should be able to figure it out by yourself.
+if sum is not divisble by 2 => impossible to achieve.
+Then just greedy the way through and get the result.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 08/04/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int t, a, b, c;
