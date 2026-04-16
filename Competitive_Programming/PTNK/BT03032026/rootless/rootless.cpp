@@ -1,3 +1,14 @@
+// Source: Lost source
+// Status: Solved
+/*
+Note: find the Lowest Common Ancestor of two vertex u and v if the root is r
+
+Solution: it's graph theory, and I really don't understand it.
+
+Author: Nguyen Duy Minh - High School for the Gifted, VNU - HCM
+Date: 03/03/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 1e5 + 5, lg = 18;

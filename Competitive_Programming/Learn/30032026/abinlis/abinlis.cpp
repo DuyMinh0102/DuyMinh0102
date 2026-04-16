@@ -1,4 +1,4 @@
-// Source: Problems/solved/abinlis.jpg, from a teacher of mine.
+// Source: Problems/solved/abinlis.jpg
 // Status: Solved
 /* 
 Note: Find the longest common non decreasing subsequence of two array A and B.

@@ -1,3 +1,14 @@
+// Source: No source
+// Status: Solved
+/*
+Note: Total number of paths that has a length of k from node 1 to node n modulo 2017.
+
+Solution: Use matrix multiplication to efficiently calculate the amount of paths.
+
+Author: Nguyen Duy Minh - High School for the Gifted, VNU - HCM
+Date: 03/02/2026
+*/
+
 #include <bits/stdc++.h>
 #define ll long long
 #define vi vector
@@ -20,7 +31,7 @@ vi<vi<ll>> multiply(const vi<vi<ll>> & A, const vi<vi<ll>>& B, int n) {
     return C;
 }
 
-vi<vi<ll>> power(vi<vi<ll>> A, ll k, int n) {
+vi<vi<ll>> power(vi<vi<ll>> A, ll k, int n) {   
     vi<vi<ll>> res(n, vi<ll>(n, 0));
     for (int i = 0; i < n; i++) res[i][i] = 1;
 
@@ -49,14 +60,14 @@ int main() {
     }
 
     if (k == 0) {
-        if (n == 1) cout << 1 % MOD << endl;
-        else cout << 0 << endl;
+        if (n == 1) cout << 1 % MOD << '\n';
+        else cout << 0 << '\n';
         return 0;
     }
 
     vi<vi<ll>> res = power(g, k, n);
 
-    cout << res[0][n - 1] << endl;
+    cout << res[0][n - 1] << '\n';
 
     return 0;
 }

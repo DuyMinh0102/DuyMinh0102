@@ -1,4 +1,4 @@
-// Source: Problems/solved/daycs.jpg, from a teacher of mine
+// Source: Problems/solved/daycs.jpg
 // Status: Solved
 /* 
 Note: find the shortest common substring of A and B that occurs exactly once in each string.

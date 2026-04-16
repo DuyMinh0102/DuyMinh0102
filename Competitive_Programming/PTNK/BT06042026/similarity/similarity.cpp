@@ -1,3 +1,15 @@
+// Source: Problems/BT_20260406.pdf
+// Status: Solved
+/*
+Note: Given a string S, calculate the sum of S's prefix similarity with it's suffix
+The similarity mentioned is the length of the longest common prefix of two strings.
+
+Solution: Z-function
+
+Author: Nguyen Duy Minh - High School for the Gifted, VNU - HCM
+Date: 06/04/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

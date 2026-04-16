@@ -1,4 +1,4 @@
-// Source: Problems/MOVE.jpg, from a teacher of mine
+// Source: Problems/MOVE.jpg
 // Status: Solved
 /* Note: Given an undirected graph with n (n <= 200) vertices, each node has a temperature t_i.
 Find a path from A to B that the maximum difference of temperature between two vertices is minimized.

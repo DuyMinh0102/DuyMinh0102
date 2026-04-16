@@ -1,3 +1,14 @@
+// Source: No source
+// Status: Solved
+/*
+Note: Find the total number of ways to reach sum n using 1, 2 or 3.
+
+Solution: Use matrix multiplication and matrix binary exponentiation.
+
+Author: Nguyen Duy Minh - High School for the Gifted, VNU - HCM
+Date: 03/02/2026
+*/
+
 #include <bits/stdc++.h>
 #define ll long long
 #define vi vector

@@ -1,4 +1,4 @@
-// Source: Problems/DOAN.jpg, from a teacher of mine
+// Source: Problems/DOAN.jpg
 // Status: Solved
 /* Note: You have N segments, each segment is labeled by two intergers L and R, which is that start and endpoint of the segment.
 You're asked to take a segment, then another one so that the one that was taken after fits inside the one before that.

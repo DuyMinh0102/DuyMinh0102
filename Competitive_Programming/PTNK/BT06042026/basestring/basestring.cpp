@@ -1,3 +1,20 @@
+// Source: Problems/BT_20260406.pdf
+// Status: Solved
+/*
+Note: Given two string S and T, find the base string q.
+Let q^i be the string q repeated i times
+example: abc^3 = abcabcabc
+Find a q so that exists two interger i and j so:
+q^i = S
+q^j = T
+q is as long as possible
+
+Solution: use Z-function.
+
+Author: Nguyen Duy Minh - High School for the Gifted, VNU - HCM
+Date: 06/04/2026
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

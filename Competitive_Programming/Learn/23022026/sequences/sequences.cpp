@@ -1,4 +1,4 @@
-// Source: Problems/SEQUENCES.jpg, from a teacher of mine
+// Source: Problems/SEQUENCES.jpg
 // Status: Solved
 /* Note: Given N positive intergers, find the longest W-sequence
 W-sequence:
