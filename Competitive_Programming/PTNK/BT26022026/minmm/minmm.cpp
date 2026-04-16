@@ -1,3 +1,20 @@
+// Source: Problems/BT_20260226.pdf
+// Status: Solved.
+/*
+Note: Given an array of n intergers and an interger k.
+Task: Remove k intergers from the array.
+Let M be the greatest difference between any two intergers left
+Let m be the smallest difference between any two intergers left
+Find the minimum possible value of M + m.
+
+Solution: Sliding window + something to solve the query of minimum difference/maximum difference within a range
+Basically Sliding window + RMQ.
+Time complexity: O(n log n), if use ST another O(n log n). 
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 26/02/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;

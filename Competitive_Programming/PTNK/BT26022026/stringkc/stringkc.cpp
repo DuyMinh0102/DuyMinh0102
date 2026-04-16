@@ -1,3 +1,14 @@
+// Source: Problems/BT_20260226.pdf
+// Status: Unsolved.
+/*
+Note: 
+
+Solution:
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 26/02/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int n;

@@ -1,3 +1,14 @@
+// Source: Ilostthesauce 
+// Status: Solved
+/*
+Note: Total sum of distances between all pairs of (i, j) where j is a multiple of i in the tree.
+
+Solution: Binary Lifting then calculates the distance.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 17/03/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

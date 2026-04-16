@@ -8,7 +8,7 @@ Find all borders of S. Output: print out the length of different borders of S.
 Solution: Z-function.
 
 Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
-Date:
+Date: 30/03/2026 (DD/MM/YYYY)
 */
 
 #include <bits/stdc++.h>

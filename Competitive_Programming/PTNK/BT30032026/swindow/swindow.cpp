@@ -7,7 +7,7 @@ Count how many windows size k in T that P appears within.
 Solution: Hash and count. (actually it's Rabin Karp)
 
 Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
-Date:
+Date: 30/03/2026 (DD/MM/YYYY)
 */
 
 #include <bits/stdc++.h>
