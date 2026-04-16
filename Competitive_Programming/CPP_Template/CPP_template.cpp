@@ -6,7 +6,7 @@ Note:
 Solution:
 
 Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
-Date:
+Date: (DD/MM/YYYY).
 */
 #include <bits/stdc++.h>
 using namespace std;
