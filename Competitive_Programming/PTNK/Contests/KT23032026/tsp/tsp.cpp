@@ -1,3 +1,14 @@
+// Source: ..
+// Status: Solved?
+/*
+Note: ..
+
+Solution: ..
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 26/03/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -23,7 +34,6 @@ int main() {
             dp[i][j] = INF;
         }
     }
- -*
     dp[1][0] = 0;
  
     for (int mask = 1; mask < (1 << n); ++mask) {
