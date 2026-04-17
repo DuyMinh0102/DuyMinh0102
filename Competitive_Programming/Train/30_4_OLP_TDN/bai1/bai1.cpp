@@ -1,3 +1,14 @@
+// Source: ..
+// Status: Unsolved
+/*
+Note: ..
+
+Solution: ..
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: No date (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

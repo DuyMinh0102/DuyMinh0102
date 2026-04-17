@@ -1,3 +1,14 @@
+// Source: Ilostthesauce
+// Status: Solved
+/*
+Note: .. 
+ 
+Solution: ..
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 24/03/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

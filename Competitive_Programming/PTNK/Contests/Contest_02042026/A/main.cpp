@@ -1,3 +1,14 @@
+// Source: ..
+// Status: Solved
+/*
+Note: N-th fibonacci.
+
+Solution: Matrix Multi + Matrix Expo
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 02/04/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
