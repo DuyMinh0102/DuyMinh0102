@@ -1,3 +1,14 @@
+// Source: https://codeforces.com/problemset/problem/1451/B
+// Status: Solved
+/*
+Note: nothing to note.
+
+Solution: Greedy the whole way through.
+
+Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
+Date: 08/04/2026 (DD/MM/YYYY).
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define dbg(desc, x) cerr << "DBG - " << desc << ' ' << x << '\n';
