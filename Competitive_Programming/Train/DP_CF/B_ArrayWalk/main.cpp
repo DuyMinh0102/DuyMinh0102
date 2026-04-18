@@ -1,9 +1,12 @@
 // Source: https://codeforces.com/contest/1389/problem/B
 // Status: Solved
 /*
-Note: 
-
-Solution: 
+Note: The greedy logic must account for two path types: 
+- paths that end on a right move (fully balanced bounces) 
+- paths that end on a left move.
+Solution: Iterate over the number of left moves (j). 
+For each j, evaluate the max score if all j moves are full bounces, AND the max score if j-1 moves are bounces 
+and the sequence ends with a left move.
 
 Author: Nguyen Duy Minh, High School for the Gifted, VNU - HCM.
 Date: 18/04/2026 (DD/MM/YYYY).
@@ -36,20 +39,31 @@ int main(){
         ll res = 0;
 
         for (int j = 0; j <= z; ++j){
-            int lim = 1 + k - 2*j;
-            if (lim < 1) continue;
-
-            ll sum = 0, best_pair = 0;
-
-            for (int i = 1; i <= lim; ++i){
-                sum += a[i];
-                if (i < lim) best_pair = max(best_pair, a[i] + a[i + 1]);
+            
+            int lim1 = 1 + k - 2 * j;
+            if (lim1 >= 1){
+                ll sum = 0, best_pair = 0;
+                for (int i = 1; i <= lim1; ++i){
+                    sum += a[i];
+                    if (i < lim1) best_pair = max(best_pair, a[i] + a[i + 1]);
+                }
+                res = max(res, sum + j * best_pair);
             }
 
-            sum += j * best_pair;
-            res = max(res, sum);
+            if (j > 0){
+                int lim2 = 2 + k - 2 * j; 
+                if (lim2 >= 2 && lim2 <= n){
+                    ll sum = 0, best_pair = 0;
+                    for (int i = 1; i <= lim2; ++i){
+                        sum += a[i];
+                        if (i < lim2) best_pair = max(best_pair, a[i] + a[i + 1]);
+                    }
+                    res = max(res, sum + (j - 1) * best_pair + a[lim2 - 1]);
+                }
+            }
         }
 
         cout << res << '\n';
     }
+    return 0;
 }
