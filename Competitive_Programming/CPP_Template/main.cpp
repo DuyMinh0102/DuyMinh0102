@@ -15,6 +15,7 @@ using namespace std;
 #define dbg(testingLine, debugDescription, testedVariable) cerr << "Debug on line " << testingLine << ': ' << debugDescription << ' ' << testedVariable << '\n'; 
 
 // Config
+#define pb push_back
 #define ll long long
 
 // Variables
