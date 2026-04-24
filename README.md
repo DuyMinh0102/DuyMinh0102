@@ -9,6 +9,8 @@ This repo mainly serves as my own documentation of what I've done over the years
 
 | Folder | Status | Notes | Source & Problem |
 | :--- | :--- | :---: | :--- |
+| **📅 April 21, 2026** | | | |
+| `C_LONGESTREGULARBRACKETSEQ` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/C_LongestRegularBracketSeq/main.cpp)**<br>_https://codeforces.com/contest/5/problem/C_ |
 | **📅 April 19, 2026** | | | |
 | `D_DISTANCEINTREE` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Count the number of pairs (u, v) such that the distance from u to v is k.<br>Solution: let dp[u][i] be the amount of nodes is i nodes away from u.</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/D_DistanceInTree/main.cpp)**<br>_https://codeforces.com/contest/161/problem/D_ |
 | **📅 April 18, 2026** | | | |
