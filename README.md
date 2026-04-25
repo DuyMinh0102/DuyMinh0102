@@ -9,6 +9,9 @@ This repo mainly serves as my own documentation of what I've done over the years
 
 | Folder | Status | Notes | Source & Problem |
 | :--- | :--- | :---: | :--- |
+| **📅 April 24, 2026** | | | |
+| `A_PARSAHUMONGOUSTREE` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/A_ParsaHumongousTree/main.cpp)**<br>_https://codeforces.com/contest/1528/problem/A_ |
+| `C_HARDPROBLEM` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>N strings, you can reverse any string, each reverse will cost C_i energy (i is the index of the reversed string).<br>Determine if you can make the N strings lexicographically ordered, else output -1.<br>Solution: let dp[i][j] be the min cost if the current string is in the j state. (where j = [0; 1]. 1 is reversed, 0 is not)<br>we then check four possible combinations for the i-th string.</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/C_HardProblem/main.cpp)**<br>_https://codeforces.com/contest/706/problem/C_ |
 | **📅 April 21, 2026** | | | |
 | `C_LONGESTREGULARBRACKETSEQ` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/C_LongestRegularBracketSeq/main.cpp)**<br>_https://codeforces.com/contest/5/problem/C_ |
 | **📅 April 19, 2026** | | | |
