@@ -1,19 +1,20 @@
 <div align="center">
 
-# 💻 Competitive Programming Solve Log
-  
-![Last Update](https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=github)
-![Topic](https://img.shields.io/badge/Field-Informatics-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Progress-Automated-orange?style=for-the-badge)
+<img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Laptop/3D/laptop_3d.png" width="80" height="80" />
+
+# Competitive Programming Solve Log
+
+[![Last Update](https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=github)](https://github.com/DuyMinh0102)
+[![Field](https://img.shields.io/badge/Field-Informatics-blue?style=for-the-badge)](https://github.com/DuyMinh0102)
 
 ---
 
-This file contains a dynamically generated log of every problem I've solved. 
-Each entry is parsed from my source code and synced via GitHub Actions.
+This repository is an automated archive of my journey through algorithmic challenges.
+Every problem entry is parsed directly from my `.cpp` source files via GitHub Actions.
 
 </div>
 
-### 📂 Problem Archive
+### <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/File%20folder/3D/file_folder_3d.png" width="30" height="30" valign="middle" /> Problem Archive
 
 [//]: # (START_TABLE)
 
