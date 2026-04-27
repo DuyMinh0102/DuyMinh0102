@@ -1,22 +1,19 @@
 <div align="center">
   <table align="center" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px; width: 100%;">
     <tr>
-      <td bgcolor="#0d1117" align="center" style="padding: 40px; border: none;">
-        <img src="https://api.iconify.design/carbon:machine-learning-model.svg?color=white" width="90" height="90" alt="Machine Learning Model Icon" style="display: block; margin-bottom: 25px;">
-        <h1 style="margin: 0; border: none; font-size: 1.8em; font-weight: bold; color: #ffffff; letter-spacing: 1px;">
+      <td bgcolor="#0d1117" align="center" style="padding: 30px; border: none;"> 
+        <img src="https://api.iconify.design/fluent:desktop-code-24-regular.svg?color=white" width="80" height="80" alt="Code on Desktop Icon" style="display: block; margin-bottom: 20px;">
+        <h1 style="margin: 0; border: none; font-size: 1.8em; font-weight: bold; color: #ffffff; letter-spacing: 0.5px;">
           My competitive programming problem solving log
         </h1>
-        <div style="margin-top: 30px; display: inline-flex; gap: 10px; justify-content: center; width: auto;">   
-          <div style="border: 1px solid #30363d; border-radius: 6px; padding: 10px 20px; background-color: #0d1117; display: flex; align-items: center; justify-content: space-between;">
-            <span style="color: #8b949e; font-size: 0.9em; font-weight: bold; letter-spacing: 1px; margin-right: 15px;">UPDATED</span>
-            <span style="color: #3fb950; font-weight: 800; font-size: 1em;">DAILY</span>
-          </div>
-          <div style="border: 1px solid #30363d; border-radius: 6px; padding: 10px 20px; background-color: #0d1117; display: flex; align-items: center; justify-content: space-between;">
-            <span style="color: #8b949e; font-size: 0.9em; font-weight: bold; letter-spacing: 1px; margin-right: 15px;">FIELD</span>
-            <span style="color: #58a6ff; font-weight: 800; font-size: 1em;">INFORMATICS</span>
-          </div>
+        <div style="margin-top: 20px; display: inline-flex; gap: 8px; justify-content: center;">
+          <a href="https://github.com/DuyMinh0102">
+            <img src="https://img.shields.io/badge/UPDATED-DAILY-3fb950?style=for-the-badge&labelColor=21262d&logo=github&logoColor=white" alt="Updated Daily Badge" />
+          </a>
+          <a href="https://github.com/DuyMinh0102">
+            <img src="https://img.shields.io/badge/FIELD-INFORMATICS-58a6ff?style=for-the-badge&labelColor=21262d" alt="Field Informatics Badge" />
+          </a>
         </div>
-        <br>
       </td>
     </tr>
   </table>
