@@ -16,10 +16,11 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
 
 <div align="center">
   <br>
-  <p align="center">
-    <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="35" height="35" style="vertical-align: middle; margin-right: 10px;">
-    <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Problem Archive</span>
-  </p>
+  <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="45" height="45">
+  <h2 align="center" style="border-bottom: none; margin-bottom: 5px; letter-spacing: 2px;">
+    🗄️ PROBLEM ARCHIVE
+  </h2>
+  <img src="https://i.imgur.com/vH79M0y.png" width="400"> 
   <br>
 </div>
 
