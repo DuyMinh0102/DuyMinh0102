@@ -9,6 +9,8 @@ This repo mainly serves as my own documentation of what I've done over the years
 
 | Folder | Status | Notes | Source & Problem |
 | :--- | :--- | :---: | :--- |
+| **📅 April 26, 2026** | | | |
+| `C_TOBECOMEMAX` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/C_ToBecomeMax/main.cpp)**<br>_https://codeforces.com/contest/1856/problem/C_ |
 | **📅 April 25, 2026** | | | |
 | `D_MAKETHEMEQUAL` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/D_MakeThemEqual/main.cpp)**<br>_https://codeforces.com/contest/1633/problem/D_ |
 | **📅 April 24, 2026** | | | |
