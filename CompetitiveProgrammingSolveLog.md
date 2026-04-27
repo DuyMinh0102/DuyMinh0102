@@ -2,7 +2,7 @@
   <table align="center" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px; width: 100%;">
     <tr>
       <td bgcolor="#0d1117" align="center" style="padding: 30px; border: none;">     
-        <img src="https://api.iconify.design/lucide:monitor-code.svg?color=white" width="80" height="80" alt="Monitor Code Icon" style="display: block; margin-bottom: 20px;">
+        <img src="https://api.iconify.design/carbon:code.svg?color=white" width="80" height="80" style="display: block; margin-bottom: 20px;">
         <h1 style="margin: 0; border: none; font-size: 1.8em; font-weight: bold; color: #ffffff; letter-spacing: 0.5px;">
           My competitive programming problem solving log
         </h1>
