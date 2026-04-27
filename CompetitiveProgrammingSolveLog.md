@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Code/3D/code_3d.png" width="80" height="80" />
+<img src="https://cdn3d.iconscout.com/3d/premium/thumb/coding-5691475-4741042.png" width="80" height="80" />
 
 # Competitive Programming Solve Log
 
