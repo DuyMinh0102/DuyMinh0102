@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn3d.iconscout.com/3d/premium/thumb/coding-5691475-4741042.png" width="80" height="80" />
+<img src="https://cdn-icons-png.flaticon.com/512/8759/8759045.png" width="80" height="80" />
 
 # Competitive Programming Solve Log
 
