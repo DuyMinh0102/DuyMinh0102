@@ -134,18 +134,30 @@ def generate_markdown_table(tree):
             
     return "\n".join(table_lines) if all_data else "*No problems found.*"
 
-def update_readme(markdown_content):
+def update_log_file(markdown_content):
+    filename = "CompetitiveProgrammingSolveLog.md"
     try:
-        with open("README.md", "r", encoding="utf-8") as f:
+        # Read the existing content of the log file
+        with open(filename, "r", encoding="utf-8") as f:
             content = f.read()
+            
+        # Find the markers and replace the content between them
         pattern = rf"{re.escape(START_MARKER)}.*?{re.escape(END_MARKER)}"
         replacement = f"{START_MARKER}\n\n{markdown_content}\n\n{END_MARKER}"
-        new_readme = re.sub(pattern, replacement, content, flags=re.DOTALL)
-        with open("README.md", "w", encoding="utf-8") as f:
-            f.write(new_readme)
+        new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+        
+        # Write the updated content back to the file
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(new_content)
         print("Success!")
     except Exception as e:
         print(f"Error: {e}")
+
+if __name__ == "__main__":
+    tree = get_repo_tree()
+    if tree:
+        table = generate_markdown_table(tree)
+        update_log_file(table) # Make sure to call the updated function name
 
 if __name__ == "__main__":
     tree = get_repo_tree()
