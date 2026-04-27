@@ -31,7 +31,17 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 1. Stage the specific file that was changed
+          git add CompetitiveProgrammingSolveLog.md
+          
+          # 2. Commit the changes. The "|| exit 0" ensures the script doesn't 
+          # fail if there are no new problems found (nothing to commit).
+          git commit -m "docs: update solve log" || exit 0
+          
+          # 3. Now pull any changes from the remote repo. 
+          # Since we committed, Git can now rebase smoothly.
           git pull --rebase origin main
-          git add CompetitiveProgrammingSolveLog.md  # -- CHANGE THIS: Add the correct file
-          git commit -m "docs: update solve log" || echo "No changes to commit"
+          
+          # 4. Push the final result
           git push origin main
