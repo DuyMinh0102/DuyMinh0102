@@ -18,7 +18,7 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
   <table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px;">
     <tr>
       <td bgcolor="#000000" align="center" style="padding: 40px; border: none;">
-        <img src="https://api.iconify.design/carbon:machine-learning-model.svg?color=white" width="90" height="90" alt="Abstract Geometric Icon" style="display: block; margin-bottom: 25px;">
+        <img src="https://api.iconify.design/ph:stack-simple-bold.svg?color=white" width="90" height="90" alt="Abstract Geometric Icon" style="display: block; margin-bottom: 25px;">
         <h2 style="margin: 0; border: none;">
           <span style="color: #ffffff; letter-spacing: 4px; font-weight: bold; font-size: 1.5em; vertical-align: middle;">PROBLEM ARCHIVE</span>
         </h2>
