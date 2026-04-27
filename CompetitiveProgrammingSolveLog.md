@@ -14,16 +14,14 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
 
 </div>
 
-<table>
-  <tr>
-    <td style="border:none; padding-right:10px;">
-      <h3 style="margin:0;">Problem Archive</h3>
-    </td>
-    <td style="border:none;">
-      <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/File%20folder/3D/file_folder_3d.png" width="30" height="30" style="display:block;">
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <br>
+  <p align="center">
+    <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="35" height="35" style="vertical-align: middle; margin-right: 10px;">
+    <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Problem Archive</span>
+  </p>
+  <br>
+</div>
 
 [//]: # (START_TABLE)
 
