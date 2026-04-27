@@ -14,7 +14,6 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
 
 </div>
 
-<table align="center" width="80%" style="border-collapse: collapse;">
 <div align="center">
   <table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px;">
     <tr>
