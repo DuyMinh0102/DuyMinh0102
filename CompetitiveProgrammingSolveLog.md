@@ -22,7 +22,6 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
         <h2 style="margin: 0; border: none;">
           <span style="color: #ffffff; letter-spacing: 4px; font-weight: bold; font-size: 1.5em; vertical-align: middle;">PROBLEM ARCHIVE</span>
         </h2>
-        <h4 style="margin: 10px 0 0 0; color: #8b949e; font-weight: normal; vertical-align: middle;">Digital solved logic, logs, and structural data clusters</h4>
         <hr style="width: 80px; height: 3px; background-color: #58a6ff; border: none; margin-top: 25px;">
       </td>
     </tr>
