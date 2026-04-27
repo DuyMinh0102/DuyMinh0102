@@ -1,11 +1,12 @@
 <div align="center">
+  
   <table align="center" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px; width: 100%;">
     <tr>
       <td bgcolor="#010409" align="center" style="padding: 30px; border: none;">      
         <img src="https://api.iconify.design/carbon:code.svg?color=white" width="80" height="80" style="display: block; margin-bottom: 20px;">
         <h1 style="margin: 0; border: none; font-size: 1.8em; font-weight: bold; color: #ffffff; letter-spacing: 0.5px;">
           My competitive programming problem solving log
-        </h1>
+        </h1>   
         <div style="margin-top: 20px; display: inline-flex; gap: 8px; justify-content: center;">
           <a href="https://github.com/DuyMinh0102">
             <img src="https://img.shields.io/badge/UPDATED-DAILY-3fb950?style=for-the-badge&labelColor=21262d&logo=github&logoColor=white" alt="Updated Daily Badge" />
@@ -29,8 +30,8 @@
 
   <table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px;">
     <tr>
-      <td bgcolor="#010409" align="center" style="padding: 40px; border: none;"> 
-        <img src="https://api.iconify.design/ph:stack-simple-bold.svg?color=white" width="90" height="90" alt="Problem Archive Icon" style="display: block; margin-bottom: 25px;">
+      <td bgcolor="#010409" align="center" style="padding: 40px; border: none;">
+        <img src="https://api.iconify.design/ph:stack-simple-bold.svg?color=white" width="90" height="90" alt="Problem Archive Icon" style="display: block; margin-bottom: 25px;">    
         <h2 style="margin: 0; border: none;">
           <span style="color: #ffffff; letter-spacing: 4px; font-weight: bold; font-size: 1.5em; vertical-align: middle;">PROBLEM ARCHIVE</span>
         </h2>
