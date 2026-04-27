@@ -14,7 +14,7 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
 
 </div>
 
-### <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/File%20folder/3D/file_folder_3d.png" width="30" height="30" valign="middle" /> Problem Archive
+### Problem Archive <img src="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/File%20folder/3D/file_folder_3d.png" width="30" height="30" valign="middle" /> 
 
 [//]: # (START_TABLE)
 
