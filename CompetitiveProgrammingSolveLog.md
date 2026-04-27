@@ -1,8 +1,19 @@
-# Problem solving log (update daily, most of the time), only competitive programming related.
+<div align="center">
 
-This file contains an automated log of all the competitive programming problems I have solved.
+# 💻 Competitive Programming Solve Log
+  
+![Last Update](https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=github)
+![Topic](https://img.shields.io/badge/Field-Informatics-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Progress-Automated-orange?style=for-the-badge)
 
-### Logs
+---
+
+This file contains a dynamically generated log of every problem I've solved. 
+Each entry is parsed from my source code and synced via GitHub Actions.
+
+</div>
+
+### 📂 Problem Archive
 
 [//]: # (START_TABLE)
 
