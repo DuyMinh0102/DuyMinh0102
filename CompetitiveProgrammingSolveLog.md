@@ -1,11 +1,26 @@
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/8759/8759045.png" width="80" height="80" />
-
-# My competitive programming problem solving log
-
-[![Last Update](https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=github)](https://github.com/DuyMinh0102)
-[![Field](https://img.shields.io/badge/Field-Informatics-blue?style=for-the-badge)](https://github.com/DuyMinh0102)
+<div align="center">
+  <table align="center" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px; width: 100%;">
+    <tr>
+      <td bgcolor="#0d1117" align="center" style="padding: 20px; border: none;">
+        <img src="https://cdn-icons-png.flaticon.com/512/8759/8759045.png" width="80" height="80" style="display: block; margin: 0 auto 15px auto;" alt="Hero Icon" />
+        <h1 style="margin: 0; border: none; font-size: 1.8em; font-weight: bold; color: #ffffff;">
+          My competitive programming problem solving log
+        </h1>
+        <div style="margin-top: 15px; display: inline-flex; gap: 5px; justify-content: center;">
+          <a href="https://github.com/DuyMinh0102">
+            <img src="https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=github" alt="Updated Daily Badge" />
+          </a>
+          <a href="https://github.com/DuyMinh0102">
+            <img src="https://img.shields.io/badge/Field-Informatics-blue?style=for-the-badge" alt="Field Informatics Badge" />
+          </a>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <br>
+</div>
 
 ---
 
