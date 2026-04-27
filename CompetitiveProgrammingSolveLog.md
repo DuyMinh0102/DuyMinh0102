@@ -2,7 +2,7 @@
 
   <table align="center" width="85%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px;">
     <tr>
-      <td bgcolor="#0d1117" align="center" style="padding: 30px; border: none;">      
+      <td bgcolor="#010409" align="center" style="padding: 30px; border: none;">       
         <img src="https://api.iconify.design/carbon:code.svg?color=white" width="70" height="70" style="display: block; margin-bottom: 15px;">
         <h1 style="margin: 0; border: none; font-size: 1.8em; font-weight: bold; color: #ffffff; letter-spacing: 0.5px;">
           My competitive programming problem solving log
@@ -30,8 +30,8 @@
 
   <table align="center" width="85%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px;">
     <tr>
-      <td bgcolor="#0d1117" align="center" style="padding: 25px; border: none;">
-        <img src="https://api.iconify.design/ph:stack-simple-bold.svg?color=white" width="60" height="60" alt="Problem Archive Icon" style="display: block; margin-bottom: 15px;">
+      <td bgcolor="#010409" align="center" style="padding: 25px; border: none;"> 
+        <img src="https://api.iconify.design/ph:stack-simple-bold.svg?color=white" width="60" height="60" style="display: block; margin-bottom: 15px;">
         <h2 style="margin: 0; border: none;">
           <span style="color: #ffffff; letter-spacing: 3px; font-weight: bold; font-size: 1.4em; vertical-align: middle;">PROBLEM ARCHIVE</span>
         </h2>
