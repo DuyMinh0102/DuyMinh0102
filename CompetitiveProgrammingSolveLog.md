@@ -2,7 +2,7 @@
 
 <img src="https://cdn-icons-png.flaticon.com/512/8759/8759045.png" width="80" height="80" />
 
-# My competitive programming problem solving log.
+# My competitive programming problem solving log
 
 [![Last Update](https://img.shields.io/badge/Updated-Daily-brightgreen?style=for-the-badge&logo=github)](https://github.com/DuyMinh0102)
 [![Field](https://img.shields.io/badge/Field-Informatics-blue?style=for-the-badge)](https://github.com/DuyMinh0102)
