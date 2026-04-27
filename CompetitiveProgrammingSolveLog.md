@@ -14,12 +14,12 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
 
 </div>
 
-<table align="center" style="border-collapse: collapse;">
+<table align="center" width="80%" style="border-collapse: collapse;">
   <tr>
-    <td bgcolor="#0d1117" align="center" style="padding: 15px 40px; border: 1px solid #30363d; border-radius: 8px;">
-      <h2 style="margin: 0; border: none;">
-        <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="28" height="28" style="vertical-align: middle; margin-right: 10px;">
-        <span style="vertical-align: middle; font-weight: bold; color: #c9d1d9;">Problem Archive</span>
+    <td bgcolor="#010409" style="padding: 15px 25px; border: 1px solid #21262d; border-radius: 6px;">
+      <h2 style="margin: 0; border: none; font-family: monospace;">
+        <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="25" height="25" style="vertical-align: middle; margin-right: 10px;">
+        <span style="vertical-align: middle; color: #3fb950;">~/archive/problems</span>
       </h2>
     </td>
   </tr>
