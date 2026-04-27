@@ -15,16 +15,23 @@ Every problem entry is parsed directly from my `.cpp` source files via GitHub Ac
 </div>
 
 <table align="center" width="80%" style="border-collapse: collapse;">
-  <tr>
-    <td bgcolor="#010409" style="padding: 15px 25px; border: 1px solid #21262d; border-radius: 6px;">
-      <h2 style="margin: 0; border: none; font-family: monospace;">
-        <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" width="25" height="25" style="vertical-align: middle; margin-right: 10px;">
-        <span style="vertical-align: middle; color: #3fb950;">~/archive/problems</span>
-      </h2>
-    </td>
-  </tr>
-</table>
-<br>
+<div align="center">
+  <table align="center" width="100%" style="border-collapse: collapse; border: 1px solid #30363d; border-radius: 8px;">
+    <tr>
+      <td bgcolor="#000000" align="center" style="padding: 40px; border: none;">
+        <img src="https://raw.githubusercontent.com/username/repository/main/assets/geometric-data-archive.png" width="120" height="120" alt="Geometric CP Data Archive Icon" style="display: block; margin-bottom: 25px;">
+        
+        <h2 style="margin: 0; border: none;">
+          <span style="color: #ffffff; letter-spacing: 4px; font-weight: bold; font-size: 1.5em; vertical-align: middle;">PROBLEM ARCHIVE</span>
+        </h2>
+        <h4 style="margin: 10px 0 0 0; color: #8b949e; font-weight: normal; vertical-align: middle;">Digital Solved Logic, logs, and structural competitive programming data clusters</h4>
+        
+        <hr style="width: 80px; height: 3px; background-color: #58a6ff; border: none; margin-top: 25px;">
+      </td>
+    </tr>
+  </table>
+  <br>
+</div>
 
 [//]: # (START_TABLE)
 
