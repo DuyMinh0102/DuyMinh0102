@@ -84,16 +84,13 @@ def get_status_display(status_raw):
     stay on the same line.
     """
     status = status_raw.upper().strip()
-    
-    # Check for UNSOLVED first to ensure it doesn't default to green
+
     if any(x in status for x in ["UNSOLVED", "FAILED", "WA"]):
         return f"🔴&nbsp;` {status} `"
-    
-    # SOLVED: Green high-texture circle
+
     if any(x in status for x in ["SOLVED", "ACCEPTED", "AC"]):
         return f"🟢&nbsp;` {status} `"
-    
-    # PERCENTAGE: Yellow high-texture circle
+
     if "%" in status:
         return f"🟡&nbsp;` {status} `"
 
@@ -104,14 +101,15 @@ def generate_markdown_table(tree):
     for item in tree:
         path = item['path']
         if item['type'] == 'blob' and any(path.startswith(f + "/") for f in TARGET_FOLDERS):
-            if not path.lower().endswith('.cpp'): continue
+            if not path.lower().endswith('.cpp'): 
+                continue
             meta = fetch_file_metadata(path)
             all_data.append({**item, **meta})
 
     all_data.sort(key=lambda x: x['Date'], reverse=True)
 
     table_lines = [
-        "| Folder | Status | Notes | Source & Problem |",
+        "| Folder | Status | Notes | Problem & Source |",
         "| :--- | :--- | :---: | :--- |"
     ]
     
@@ -123,12 +121,16 @@ def generate_markdown_table(tree):
 
         parts = item['path'].split('/')
         folder_display = parts[-2].upper()
-        clean_name = os.path.splitext(parts[-1])[0].replace('_', ' ').upper()
-        file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(item['path'])}"
         
+        raw_filename = parts[-1]
+        clean_name = os.path.splitext(raw_filename)[0].replace('_', ' ').upper()
+
+        file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(item['path'])}"
+
         status_display = get_status_display(item['Status'])
         notes_cell = f"<details><summary>📝 View</summary><br>{item['Note']}</details>" if item['Note'] != "-" else "-"
-        source_cell = f"**[`{clean_name}`]({file_url})**<br>_{item['Source']}_"
+
+        source_cell = f"**[{clean_name}]({file_url})**<br>_{item['Source']}_"
         
         table_lines.append(f"| `{folder_display}` | {status_display} | {notes_cell} | {source_cell} |")
             
