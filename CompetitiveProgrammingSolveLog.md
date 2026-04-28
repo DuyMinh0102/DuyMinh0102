@@ -48,6 +48,8 @@
 
 | Folder | Status | Notes | Source & Problem |
 | :--- | :--- | :---: | :--- |
+| **📅 April 28, 2026** | | | |
+| `B_GREGNGRAPH` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>(pending)<br>Solution: (pending)</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/B_GregNGraph/main.cpp)**<br>_https://codeforces.com/contest/295/problem/B_ |
 | **📅 April 27, 2026** | | | |
 | `D_MAXEVENSUM` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Reverse a contiguous subarray of A so that the sum on the even indices are maximize<br>Solution: do Kadane on possible gains (O(N) two times) then determine the max</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/D_MaxEvenSum/main.cpp)**<br>_https://codeforces.com/contest/1373/problem/D_ |
 | `D_MAXSUMOFPROD` | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Reverse a single subarray of A once so that sum of (a_i * b_i) is maximize;<br>Solution: O(N^2), iterating through i and for each i, try it as a center of a reverse segment<br>Do two cases: i for odd lengthed segment and i and i + 1 of even lengthed segment.</details> | **[`MAIN`](https://github.com/DuyMinh0102/DuyMinh0102/blob/main/Competitive_Programming/Train/DP_CF/D_MaxSumOfProd/main.cpp)**<br>_https://codeforces.com/contest/1519/problem/D_ |
