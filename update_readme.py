@@ -105,11 +105,10 @@ def generate_markdown_table(tree):
                 continue
             meta = fetch_file_metadata(path)
             all_data.append({**item, **meta})
-
     all_data.sort(key=lambda x: x['Date'], reverse=True)
 
     table_lines = [
-        "| Folder | Status | Notes | Problem & Source |",
+        "| Problem | Status | Notes | Source |",
         "| :--- | :--- | :---: | :--- |"
     ]
     
@@ -118,21 +117,21 @@ def generate_markdown_table(tree):
         if item['Date'] != last_date:
             last_date = item['Date']
             table_lines.append(f"| **📅 {item['DisplayDate']}** | | | |")
-
         parts = item['path'].split('/')
-        folder_display = parts[-2].upper()
-        
-        raw_filename = parts[-1]
-        clean_name = os.path.splitext(raw_filename)[0].replace('_', ' ').upper()
+        folder_name = parts[-2].upper().replace('_', ' ')
 
-        file_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/blob/{BRANCH}/{urllib.parse.quote(item['path'])}"
+        folder_path = os.path.dirname(item['path'])
+        folder_url = f"https://github.com/{GITHUB_USERNAME}/{PROBLEMS_REPO}/tree/{BRANCH}/{urllib.parse.quote(folder_path)}"
 
         status_display = get_status_display(item['Status'])
         notes_cell = f"<details><summary>📝 View</summary><br>{item['Note']}</details>" if item['Note'] != "-" else "-"
 
-        source_cell = f"**[{clean_name}]({file_url})**<br>_{item['Source']}_"
+        problem_cell = f"**[{folder_name}]({folder_url})**"
+
+        source_val = item['Source']
+        source_cell = f"_{source_val}_" if source_val != "-" else "-"
         
-        table_lines.append(f"| `{folder_display}` | {status_display} | {notes_cell} | {source_cell} |")
+        table_lines.append(f"| {problem_cell} | {status_display} | {notes_cell} | {source_cell} |")
             
     return "\n".join(table_lines) if all_data else "*No problems found.*"
 
