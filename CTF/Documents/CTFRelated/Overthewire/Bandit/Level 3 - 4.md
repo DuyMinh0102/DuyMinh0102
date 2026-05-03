@@ -7,4 +7,4 @@ There is nothing to be seen
 That's because the file you need to find is actually **hidden**
 For it show, add the flag **-a** after the **ls** command (-a here means all, basically asking to show all the files)
 ![[Pasted image 20260429210311.png]]
-We can now move on to level 4
+We can now move on to [[Level 4 - 5]]

@@ -12,4 +12,4 @@ the *.* means to find in this directory and it's sub-directory
 **! -executable**: ! is the operator that means "negation", so this part mean not executable
 -readable: self-explanatory
 -size 1033c: a file with the size of 1033c where c is the data size measure in bytes.
-We can now move on to level 6
+We can now move on to [[Level 6 - 7]]
