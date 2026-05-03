@@ -12,7 +12,6 @@ then use
 
 It should look like this
 ![[Pasted image 20260429204644.png]]
-We can now move on to the next level
-[[Level 1 - 2]]
+We can now move on to [[Level 1 - 2]]
 
 *For more details on how ssh, ls, or cat works: type in man _command_*

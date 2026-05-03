@@ -11,4 +11,4 @@ Instead, we have to do this:
 ![[Pasted image 20260429205403.png]]
 
 Because the file name is, well, odd, reading it the normal way isn't possible.
-We can now move on to level 2.
+We can now move on to [[Level 2 - 3]]

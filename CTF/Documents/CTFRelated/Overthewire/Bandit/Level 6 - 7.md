@@ -13,4 +13,4 @@ We execute the following command:
 You can see there's a section **2>/dev/null**
 The reason is, since we're looking through **every** file in inside of **/** or **root**, there will be files that we cannot, or does not have the permission to open. Which will output a Permission denied message from **stderr** (file descriptor **2**)
 TLDR: this section skips anything that got output to stderr, leaving only what we need
-We can now move to level 7.
+We can now move to [[Level 7 - 8]]

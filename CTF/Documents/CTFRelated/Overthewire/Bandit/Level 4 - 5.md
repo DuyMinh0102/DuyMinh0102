@@ -5,4 +5,4 @@ There is 9 files to look through.
 There are two solutions:
 - Look through all of them
 - Check the file type of each one (this will be faster overall if there are more files)
-We can then move on to level 5
+We can then move on to [[Level 5 - 6]]
