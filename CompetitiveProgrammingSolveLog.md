@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 03, 2026** | | | |
+| **[E SLEEPINGSCHEDULE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E_SleepingSchedule)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>A day has h hours. Vova sleeps for n times. The i-th time he sleep is exactly a_i<br>or a_i - 1 hours after he last woke up. Every time, he sleeps for h hours.<br>Count the amount of sleeping<br>time that is good (good: he starts sleeping between hours l and r).<br>Solution: a two dimensional dp</details> | _https://codeforces.com/contest/1324/problem/E_ |
 | **📅 April 28, 2026** | | | |
 | **[B GREGNGRAPH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_GregNGraph)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>(pending)<br>Solution: (pending)</details> | _https://codeforces.com/contest/295/problem/B_ |
 | **📅 April 27, 2026** | | | |
