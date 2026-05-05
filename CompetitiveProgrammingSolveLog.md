@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 05, 2026** | | | |
+| **[D LITTLEGIRLANDMAXIMUMXOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_LittleGirlAndMaximumXOR)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Within a pair of [L; R], choose two number A and B so that A^B is maximize.<br>Solution:</details> | _https://codeforces.com/contest/276/problem/D_ |
 | **📅 May 04, 2026** | | | |
 | **[HCN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/hcn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[C GEORGEANDJOB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_GeorgeAndJob)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/467/problem/C_ |
@@ -200,6 +202,8 @@
 | **[C ROUNDTABLEKNIGHTS ROUND65 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_RoundTableKnights_Round65_Div2)** | ⚪&nbsp;` - ` | - | - |
 | **[C RUDOLFNSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_RudolfNString)** | ⚪&nbsp;` - ` | - | - |
 | **[D FLOWERS CFROUND271 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_Flowers_CFRound271_Div2)** | ⚪&nbsp;` - ` | - | - |
+| **[E1 ERASEANDEXTEND(EASYVER)](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E1_EraseAndExtend%28EasyVer%29)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
+| **[E1 ERASEANDEXTEND EASYVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E1_EraseAndExtend_EasyVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
 | **[E GARDENERNTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E_GardenerNTree)** | ⚪&nbsp;` - ` | - | - |
 | **[MOCHAREDNBLUE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/MochaRedNBlue)** | ⚪&nbsp;` - ` | - | - |
 | **[SANTANCANDY TESTINGROUND13](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/SantaNCandy_TestingRound13)** | ⚪&nbsp;` - ` | - | - |
