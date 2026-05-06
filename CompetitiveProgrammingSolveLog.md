@@ -48,6 +48,11 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 05, 2026** | | | |
+| **[D LITTLEGIRLANDMAXIMUMXOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_LittleGirlAndMaximumXOR)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Within a pair of [L; R], choose two number A and B so that A^B is maximize.<br>Solution:</details> | _https://codeforces.com/contest/276/problem/D_ |
+| **📅 May 04, 2026** | | | |
+| **[HCN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/hcn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[C GEORGEANDJOB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_GeorgeAndJob)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/467/problem/C_ |
 | **📅 May 03, 2026** | | | |
 | **[E SLEEPINGSCHEDULE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E_SleepingSchedule)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>A day has h hours. Vova sleeps for n times. The i-th time he sleep is exactly a_i<br>or a_i - 1 hours after he last woke up. Every time, he sleeps for h hours.<br>Count the amount of sleeping<br>time that is good (good: he starts sleeping between hours l and r).<br>Solution: a two dimensional dp</details> | _https://codeforces.com/contest/1324/problem/E_ |
 | **📅 April 28, 2026** | | | |
@@ -167,6 +172,9 @@
 | **[CPATH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT02032026/cpath)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Total number of paths that has a length of k from node 1 to node n modulo 2017.<br>Solution: Use matrix multiplication to efficiently calculate the amount of paths.</details> | _Problems/BT_20260302.pdf_ |
 | **[LOCO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT02032026/loco)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the total number of ways to reach sum n using 1, 2 or 3.<br>Solution: Use matrix multiplication and matrix binary exponentiation.</details> | _Problems/BT_20260302.pdf_ |
 | **📅 -** | | | |
+| **[BSCNN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/bscnn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[SEQ](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/seq)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
@@ -194,6 +202,8 @@
 | **[C ROUNDTABLEKNIGHTS ROUND65 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_RoundTableKnights_Round65_Div2)** | ⚪&nbsp;` - ` | - | - |
 | **[C RUDOLFNSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_RudolfNString)** | ⚪&nbsp;` - ` | - | - |
 | **[D FLOWERS CFROUND271 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_Flowers_CFRound271_Div2)** | ⚪&nbsp;` - ` | - | - |
+| **[E1 ERASEANDEXTEND(EASYVER)](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E1_EraseAndExtend%28EasyVer%29)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
+| **[E1 ERASEANDEXTEND EASYVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E1_EraseAndExtend_EasyVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
 | **[E GARDENERNTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E_GardenerNTree)** | ⚪&nbsp;` - ` | - | - |
 | **[MOCHAREDNBLUE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/MochaRedNBlue)** | ⚪&nbsp;` - ` | - | - |
 | **[SANTANCANDY TESTINGROUND13](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/SantaNCandy_TestingRound13)** | ⚪&nbsp;` - ` | - | - |
