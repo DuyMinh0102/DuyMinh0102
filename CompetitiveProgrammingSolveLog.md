@@ -48,11 +48,17 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 06, 2026** | | | |
+| **[B ZUMA](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_Zuma)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Each operation allows you to pick a palindromic subsequence and delete it from the sequence.<br>After that, the rest of the seq will ber merged into one seq again, without the deleted part.<br>Find the minimum operations needed.<br>Solution:</details> | _https://codeforces.com/contest/607/problem/B_ |
+| **[C TWOARRAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TwoArrays)** | ⚪&nbsp;` PENDING ` | - | _https://codeforces.com/contest/1288/problem/C_ |
+| **[C TWOARRAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TwoArrays)** | 🟢&nbsp;` SOLVED ` | - | _https://codeforces.com/contest/1288/problem/C_ |
+| **[D SAYNOTOPALINDROMES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_SayNoToPalindromes)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given M queries, determine the minimum amount of characters that needs to change in order for the substr to not<br>contain any palindrome substr longer than 1.<br>Solution:</details> | _https://codeforces.com/contest/1555/problem/D_ |
 | **📅 May 05, 2026** | | | |
 | **[D LITTLEGIRLANDMAXIMUMXOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_LittleGirlAndMaximumXOR)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Within a pair of [L; R], choose two number A and B so that A^B is maximize.<br>Solution:</details> | _https://codeforces.com/contest/276/problem/D_ |
 | **📅 May 04, 2026** | | | |
 | **[HCN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/hcn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
-| **[C GEORGEANDJOB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_GeorgeAndJob)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/467/problem/C_ |
+| **[C ADDONE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_AddOne)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1513/problem/C_ |
+| **[C GEORGEANDJOB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_GeorgeAndJob)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/467/problem/C_ |
 | **📅 May 03, 2026** | | | |
 | **[E SLEEPINGSCHEDULE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/E_SleepingSchedule)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>A day has h hours. Vova sleeps for n times. The i-th time he sleep is exactly a_i<br>or a_i - 1 hours after he last woke up. Every time, he sleeps for h hours.<br>Count the amount of sleeping<br>time that is good (good: he starts sleeping between hours l and r).<br>Solution: a two dimensional dp</details> | _https://codeforces.com/contest/1324/problem/E_ |
 | **📅 April 28, 2026** | | | |
