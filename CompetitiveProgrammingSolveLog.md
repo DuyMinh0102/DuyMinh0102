@@ -54,6 +54,7 @@
 | **[C TWOARRAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TwoArrays)** | 🟢&nbsp;` SOLVED ` | - | _https://codeforces.com/contest/1288/problem/C_ |
 | **[D SAYNOTOPALINDROMES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_SayNoToPalindromes)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given M queries, determine the minimum amount of characters that needs to change in order for the substr to not<br>contain any palindrome substr longer than 1.<br>Solution:</details> | _https://codeforces.com/contest/1555/problem/D_ |
 | **📅 May 05, 2026** | | | |
+| **[KETBAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/KETBAN)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _no_source_ |
 | **[D LITTLEGIRLANDMAXIMUMXOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_LittleGirlAndMaximumXOR)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Within a pair of [L; R], choose two number A and B so that A^B is maximize.<br>Solution:</details> | _https://codeforces.com/contest/276/problem/D_ |
 | **📅 May 04, 2026** | | | |
 | **[HCN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/hcn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
@@ -181,6 +182,8 @@
 | **[BSCNN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/bscnn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[SEQ](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/seq)** | ⚪&nbsp;` - ` | - | - |
+| **[PHANTUTHUK](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/PHANTUTHUK)** | ⚪&nbsp;` - ` | - | - |
+| **[THUTHAP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/THUTHAP)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
