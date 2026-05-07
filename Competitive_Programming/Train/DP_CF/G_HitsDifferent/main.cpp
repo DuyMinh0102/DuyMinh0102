@@ -20,22 +20,28 @@ using namespace std;
 
 // Variables
 int t;
-ll n;
-vector<ll> dp[1505];
+ll dp[1505][1505] = {0LL};
+ll ans[1000005];
 
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-    for (int l = 1; l <= 1500; ++l){
-        for (int i = 1; i <= l; ++i){
-            dp[l].push_back((i + l - 1)*(i + l - 1));
+    ll base = 1;
+    for (ll i = 1; i <= 1500; ++i){
+        for (int j = i - 1; j > 0; --j){
+            dp[j][i - j] = dp[j - 1][i - j] + dp[j][i - j - 1] - dp[j - 1][i - j - 1] + base*base;
+            ans[base] = dp[j][i - j];
+            ++base;
+            if (base > 1000000) break;
         }
+        if (base > 1000000) break;
     }
 
     cin >> t;
 
     while(t--){
-        
+        int n; cin >> n;
+        cout << ans[n] << '\n';
     }
 }
