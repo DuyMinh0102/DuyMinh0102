@@ -1,5 +1,5 @@
 // Source: https://codeforces.com/contest/1288/problem/C
-// Status: Pending
+// Status: Solved
 /*
 Solution: Using Stars and Bars to solve
 

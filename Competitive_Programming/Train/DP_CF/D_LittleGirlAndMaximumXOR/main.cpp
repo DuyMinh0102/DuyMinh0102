@@ -1,5 +1,5 @@
 // Source: https://codeforces.com/contest/276/problem/D
-// Status: Unsolved
+// Status: Solved
 /*
 Note: Within a pair of [L; R], choose two number A and B so that A^B is maximize.
 
