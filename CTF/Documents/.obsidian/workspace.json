@@ -11,10 +11,14 @@
             "id": "2d74f1aada49f9b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CTFRelated/Overthewire/Bandit/Level 19 - 20.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Level 19 - 20"
             }
           }
         ]
