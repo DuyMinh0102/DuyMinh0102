@@ -48,14 +48,18 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 07, 2026** | | | |
+| **[C BOBONIUANDBITOPERATIONS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_BoboniuAndBitOperations)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1395/problem/C_ |
+| **[C THESPORTFESTIVAL](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TheSportFestival)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1509/problem/C_ |
+| **[G HITSDIFFERENT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/G_HitsDifferent)** | ⚪&nbsp;` PENDING ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1829/problem/G_ |
 | **📅 May 06, 2026** | | | |
 | **[B ZUMA](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_Zuma)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Each operation allows you to pick a palindromic subsequence and delete it from the sequence.<br>After that, the rest of the seq will ber merged into one seq again, without the deleted part.<br>Find the minimum operations needed.<br>Solution:</details> | _https://codeforces.com/contest/607/problem/B_ |
-| **[C TWOARRAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TwoArrays)** | ⚪&nbsp;` PENDING ` | - | _https://codeforces.com/contest/1288/problem/C_ |
+| **[C TWOARRAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TwoArrays)** | 🟢&nbsp;` SOLVED ` | - | _https://codeforces.com/contest/1288/problem/C_ |
 | **[C TWOARRAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TwoArrays)** | 🟢&nbsp;` SOLVED ` | - | _https://codeforces.com/contest/1288/problem/C_ |
 | **[D SAYNOTOPALINDROMES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_SayNoToPalindromes)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given M queries, determine the minimum amount of characters that needs to change in order for the substr to not<br>contain any palindrome substr longer than 1.<br>Solution:</details> | _https://codeforces.com/contest/1555/problem/D_ |
 | **📅 May 05, 2026** | | | |
 | **[KETBAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/KETBAN)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _no_source_ |
-| **[D LITTLEGIRLANDMAXIMUMXOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_LittleGirlAndMaximumXOR)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Within a pair of [L; R], choose two number A and B so that A^B is maximize.<br>Solution:</details> | _https://codeforces.com/contest/276/problem/D_ |
+| **[D LITTLEGIRLANDMAXIMUMXOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_LittleGirlAndMaximumXOR)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Within a pair of [L; R], choose two number A and B so that A^B is maximize.<br>Solution:</details> | _https://codeforces.com/contest/276/problem/D_ |
 | **📅 May 04, 2026** | | | |
 | **[HCN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/hcn)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[C ADDONE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_AddOne)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1513/problem/C_ |
