@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 08, 2026** | | | |
+| **[B MODULOSUM](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_ModuloSum)** | ⚪&nbsp;` PENDING ` | <details><summary>📝 View</summary><br>Choose a subset from the original sequence so that it's sum is divisible by m.<br>Solution:</details> | _https://codeforces.com/contest/577/problem/B_ |
 | **📅 May 07, 2026** | | | |
 | **[C BOBONIUANDBITOPERATIONS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_BoboniuAndBitOperations)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1395/problem/C_ |
 | **[C THESPORTFESTIVAL](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_TheSportFestival)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1509/problem/C_ |
