@@ -1,9 +1,15 @@
 // Source: https://codeforces.com/contest/2063/problem/C
-// Status: Pending
+// Status: Solved
 /*
 Note: Remove two vertices and the edges connected to those so that the amount of connected components left is maximized
 
-Solution:
+Solution: For there to be as many connected components (CC) as it can be by deleting two vertices and edges connected to it,
+We should delete vertices with high degrees (high amount of edges incident to it)
+When picking two, there are two cases:
+- The two picked are not connected by an edge -> CC = deg[a] + deg[b] - 1
+- The two are connected by an edge -> CC = deg[a] + deg[b] - 2
+
+
 
 Author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.
 Date: 09/05/2026 (DD/MM/YYYY).

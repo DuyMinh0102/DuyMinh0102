@@ -1,9 +1,11 @@
 // Source: https://codeforces.com/contest/349/problem/B
-// Status: Pending
+// Status: Solved
 /*
-Note: 
+Note: Every digit (1 - 9) costs some amount to be paint. Determine the biggest number that can be painted.
 
-Solution:
+Solution: The logic is simple:
+- Prioritize painting as many digits as possible
+- Iterate from front to back and see if we can increase any digit at any point with the remaining paint.
 
 Author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.
 Date: 07/05/2026 (DD/MM/YYYY).
