@@ -1,5 +1,5 @@
 // Source: https://codeforces.com/contest/1946/problem/C
-// Status: Unsolved
+// Status: Solved
 /*
 Note: Determine the biggest smallest component size after deleting k edges.
 
