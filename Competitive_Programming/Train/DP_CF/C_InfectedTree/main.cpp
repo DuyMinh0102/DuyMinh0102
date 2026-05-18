@@ -1,5 +1,5 @@
 // Source: https://codeforces.com/contest/1689/problem/C
-// Status: Unsolved
+// Status: Solved
 /*
 Note:
 

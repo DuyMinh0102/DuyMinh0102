@@ -1,5 +1,5 @@
 // Source: https://codeforces.com/contest/1296/problem/C
-// Status: Unsolved
+// Status: Solved
 /*
 Note: Given two strings s and t. You have an empty string z. You can append any
 subsequence of any length of s to z in one operation. Find the minimum amount of
