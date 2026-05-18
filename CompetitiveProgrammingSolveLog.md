@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 16, 2026** | | | |
+| **[B STAYORMIRROR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_StayorMirror)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _https://codeforces.com/contest/2129/problem/B_ |
 | **📅 May 15, 2026** | | | |
 | **[F SPYSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/F_Spystring)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>The constraints for this problem are very small (n, m <= 10). This suggests that<br>a brute-force approach is feasible. A "spy-string" must differ from the first<br>string a[0] by at most one character. Therefore, we can generate all strings<br>that differ from a[0] by exactly one position and check if any of them satisfy<br>the condition for all other strings in the set.<br>Solution:<br>1. Take the first string a[0] as a base.<br>2. Iterate through every index i (0 to m-1) and every character c ('a' to 'z').<br>3. Create a candidate string by replacing a[0][i] with c.<br>4. For each candidate, check if it differs from every string a[j] by <= 1 position.<br>5. If a match is found, print it and move to the next test case.<br>6. If no candidate works after all iterations, print -1.</details> | _https://codeforces.com/contest/1360/problem/F_ |
 | **📅 May 14, 2026** | | | |
