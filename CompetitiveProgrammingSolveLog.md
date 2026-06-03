@@ -48,6 +48,13 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 May 31, 2026** | | | |
+| **[D MYSTERIOUSPRESENT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_MysteriousPresent)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>given N envelopes, each has a width (w) and heght (h) where 1 <= w, h <=<br>10^6. A chain is a sequence of envelopes so that the ith envelope w and h is<br>strictly greater than the (i - 1)th envelope. Find the longest chain obtainable.<br>Solution:</details> | _https://codeforces.com/contest/4/problem/D_ |
+| **📅 May 30, 2026** | | | |
+| **[COINS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_Intro2_MaOJ/Coins)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/151_ |
+| **[SAKE GAME](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_Intro2_MaOJ/Sake_game)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/145_ |
+| **📅 May 28, 2026** | | | |
+| **[C PLANARREFLECTIONS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_PlanarReflections)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>When a particle of DA (decay age) of k moves to a plane, that plane<br>creates another DA age k - 1 which travels in the oposite direction, and<br>continue moving. Count the amount of particles after shooting a DA of age k into<br>a set of planes modulo 10^9 + 7.<br>Solution:</details> | _https://codeforces.com/contest/1498/problem/C_ |
 | **📅 May 23, 2026** | | | |
 | **[C CARRYINGCONUNDRUM](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_CarryingConundrum)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Alice performs addition but carries two columns to the right instead of<br>one. Find the number of ordered pairs of positive intergers (a, b) such that<br>their Alice-addition equals n.<br>Solution: Carry skips a column -> digits at even pos (0, 2, 4,..) and odd (1, 3,<br>5,..) from the right operate completely independently. So we split n into two<br>separate numbers. A: formed by even-pos digits B: formed by odd-pos digits<br>Number of non-neg pairs that sum to A is (A + 1) and for B is (B + 1)<br>respectively. Total: (A + 1) * (B + 1) The problem requires both: substract 2 to<br>exclude invalid pairs (0, n) and (n, 0)</details> | _https://codeforces.com/contest/1567/problem/C_ |
 | **📅 May 22, 2026** | | | |
@@ -302,6 +309,7 @@
 | **[MEDIAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/median)** | ⚪&nbsp;` - ` | - | - |
 | **[MOSTFREQUENT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/mostfrequent)** | ⚪&nbsp;` - ` | - | - |
 | **[SET](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/set)** | ⚪&nbsp;` - ` | - | - |
+| **[DIGITREPLACENRANGESUMQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/ST_BIT_MaOJ/DigitReplaceNRangeSumQueries)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/721_ |
 | **[APPLE PICKING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/ST_BIT_MaOJ/apple_picking)** | ⚪&nbsp;` - ` | - | - |
 | **[DIV BY 3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/ST_BIT_MaOJ/div_by_3)** | ⚪&nbsp;` - ` | - | - |
 | **[GREATEST SUBARR SUM](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/ST_BIT_MaOJ/greatest_subarr_sum)** | ⚪&nbsp;` - ` | - | - |
