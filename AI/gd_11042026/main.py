@@ -38,13 +38,12 @@ while active_indices:
         derv = J_derv(thetas[i])
         velocities[i] = alpha * derv + beta * velocities[i]
         thetas[i] = thetas[i] - velocities[i]
-        
+
         points[i].set_xdata([thetas[i]])
         points[i].set_ydata([J(thetas[i])])
         
         if abs(velocities[i]) < epsilon:
             active_indices.remove(i)
-            
     plt.draw()
     plt.pause(0.1)
 

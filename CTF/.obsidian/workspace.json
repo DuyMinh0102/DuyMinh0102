@@ -11,17 +11,28 @@
             "id": "a6a9854f6b2af5b6",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "6a2795a91b037698",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Documents/CTFRelated/Overthewire/Bandit/Level 32 - 33.md",
+                "file": "Notes on Linear Regression_CS229 Notes by Andrew NG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Level 32 - 33"
+              "title": "Notes on Linear Regression_CS229 Notes by Andrew NG"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,11 +194,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6a9854f6b2af5b6",
+  "active": "6a2795a91b037698",
   "lastOpenFiles": [
+    "Pasted image 20260603140447.png",
+    "Notes on Linear Regression_CS229 Notes by Andrew NG.md",
+    "Documents/AI/LinearRegression",
+    "Documents/AI",
+    "Documents/CTFRelated/Overthewire/Bandit/Level 32 - 33.md",
     "Documents/CTFRelated/Overthewire/Bandit/Level 30 - 31.md",
     "Documents/CTFRelated/Overthewire/Bandit/Level 31 - 32.md",
-    "Documents/CTFRelated/Overthewire/Bandit/Level 32 - 33.md",
     "TempForCT/bandit31/repo/key.txt",
     "TempForCT/bandit31/repo/README.md",
     "TempForCT/bandit31/repo",
@@ -200,8 +215,6 @@
     "Documents/CTFRelated/Overthewire/Bandit/Level 29 - 30.md",
     "TempForCT/bandit29/repo/code/gif2ascii.py",
     "TempForCT/bandit29/repo/code",
-    "TempForCT/bandit29/repo/README.md",
-    "TempForCT/bandit29/repo",
-    "TempForCT/bandit29"
+    "TempForCT/bandit29/repo/README.md"
   ]
 }
