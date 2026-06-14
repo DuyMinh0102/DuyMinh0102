@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 June 12, 2026** | | | |
+| **[KDQUEEN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/Contest_12062026/kdqueen)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 02, 2026** | | | |
 | **[GAMEONARRAY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_Intro2_MaOJ/GameOnArray)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>There's a game, each turn you either take away the first or the last<br>element of the array. You'll get x points, where x is the value of the element<br>you took. There's two players Marisa and Reimu, each of their total points<br>respectively are x and y. Marisa's goal is to maximize x - y, while Reimu is to<br>minimize it. Determine the highest possible value of x - y if both of them play<br>optimally.<br>Solution:</details> | _https://marisaoj.com/problem/148_ |
 | **[COIN2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_Intro2_MaOJ/coin2)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>There are n types of coins, the ith coin is worth A_i. You have to pay a<br>debt of k, how many ordered ways of choosing coins are there to create k.<br>Solution:</details> | _https://marisaoj.com/problem/158_ |
@@ -243,6 +245,7 @@
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[SEQ](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/seq)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/18052026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[CNTTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/Contest_12062026/cnttree)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[PHANTUTHUK](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/PHANTUTHUK)** | ⚪&nbsp;` - ` | - | - |
 | **[THUTHAP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/THUTHAP)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
