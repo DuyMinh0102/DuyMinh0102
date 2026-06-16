@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 June 15, 2026** | | | |
+| **[STAIRS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/stairs)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 12, 2026** | | | |
 | **[KDQUEEN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/Contest_12062026/kdqueen)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 02, 2026** | | | |
@@ -249,6 +251,8 @@
 | **[PHANTUTHUK](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/PHANTUTHUK)** | ⚪&nbsp;` - ` | - | - |
 | **[THUTHAP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/THUTHAP)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai3)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
