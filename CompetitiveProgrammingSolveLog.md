@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 June 17, 2026** | | | |
+| **[HANGPHALE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT17062026/hangphale)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 15, 2026** | | | |
 | **[STAIRS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/stairs)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 12, 2026** | | | |
@@ -253,6 +255,9 @@
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
+| **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
+| **[TG01TB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01TB)** | ⚪&nbsp;` - ` | - | - |
+| **[TRAMQUANSAT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT17062026/tramquansat)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai3)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
@@ -315,6 +320,7 @@
 | **[REPEATEDSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Hash_StringMatching_MaOJ/RepeatedString)** | ⚪&nbsp;` - ` | - | - |
 | **[STRINGCOMBO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Hash_StringMatching_MaOJ/StringCombo)** | ⚪&nbsp;` - ` | - | - |
 | **[STRINGOCCUR2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Hash_StringMatching_MaOJ/stringoccur2)** | ⚪&nbsp;` - ` | - | - |
+| **[PREFIXSUMQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/RangeQueries_CSES/prefixsumqueries)** | ⚪&nbsp;` - ` | - | - |
 | **[ALOTOFQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/alotofqueries)** | ⚪&nbsp;` - ` | - | - |
 | **[MEDIAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/median)** | ⚪&nbsp;` - ` | - | - |
 | **[MOSTFREQUENT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/mostfrequent)** | ⚪&nbsp;` - ` | - | - |
