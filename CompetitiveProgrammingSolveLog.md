@@ -258,6 +258,10 @@
 | **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
 | **[TG01TB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01TB)** | ⚪&nbsp;` - ` | - | - |
 | **[TRAMQUANSAT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT17062026/tramquansat)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[DECOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/decor)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[GLADE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/glade)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai3)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
