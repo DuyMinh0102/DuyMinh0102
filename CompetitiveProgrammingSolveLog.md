@@ -48,6 +48,15 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 June 17, 2026** | | | |
+| **[HANGPHALE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT17062026/hangphale)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **📅 June 15, 2026** | | | |
+| **[STAIRS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/stairs)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **📅 June 12, 2026** | | | |
+| **[KDQUEEN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/Contest_12062026/kdqueen)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **📅 June 02, 2026** | | | |
+| **[GAMEONARRAY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_Intro2_MaOJ/GameOnArray)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>There's a game, each turn you either take away the first or the last<br>element of the array. You'll get x points, where x is the value of the element<br>you took. There's two players Marisa and Reimu, each of their total points<br>respectively are x and y. Marisa's goal is to maximize x - y, while Reimu is to<br>minimize it. Determine the highest possible value of x - y if both of them play<br>optimally.<br>Solution:</details> | _https://marisaoj.com/problem/148_ |
+| **[COIN2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_Intro2_MaOJ/coin2)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>There are n types of coins, the ith coin is worth A_i. You have to pay a<br>debt of k, how many ordered ways of choosing coins are there to create k.<br>Solution:</details> | _https://marisaoj.com/problem/158_ |
 | **📅 May 31, 2026** | | | |
 | **[D MYSTERIOUSPRESENT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/D_MysteriousPresent)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>given N envelopes, each has a width (w) and heght (h) where 1 <= w, h <=<br>10^6. A chain is a sequence of envelopes so that the ith envelope w and h is<br>strictly greater than the (i - 1)th envelope. Find the longest chain obtainable.<br>Solution:</details> | _https://codeforces.com/contest/4/problem/D_ |
 | **📅 May 30, 2026** | | | |
@@ -240,9 +249,19 @@
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[SEQ](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/04052026/seq)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/18052026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[CNTTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/Contest_12062026/cnttree)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[PHANTUTHUK](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/PHANTUTHUK)** | ⚪&nbsp;` - ` | - | - |
 | **[THUTHAP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/THUTHAP)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
+| **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
+| **[TG01TB](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01TB)** | ⚪&nbsp;` - ` | - | - |
+| **[TRAMQUANSAT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT17062026/tramquansat)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[DECOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/decor)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[GLADE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/glade)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai3)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
@@ -305,6 +324,7 @@
 | **[REPEATEDSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Hash_StringMatching_MaOJ/RepeatedString)** | ⚪&nbsp;` - ` | - | - |
 | **[STRINGCOMBO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Hash_StringMatching_MaOJ/StringCombo)** | ⚪&nbsp;` - ` | - | - |
 | **[STRINGOCCUR2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Hash_StringMatching_MaOJ/stringoccur2)** | ⚪&nbsp;` - ` | - | - |
+| **[PREFIXSUMQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/RangeQueries_CSES/prefixsumqueries)** | ⚪&nbsp;` - ` | - | - |
 | **[ALOTOFQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/alotofqueries)** | ⚪&nbsp;` - ` | - | - |
 | **[MEDIAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/median)** | ⚪&nbsp;` - ` | - | - |
 | **[MOSTFREQUENT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/STL_MaOJ/mostfrequent)** | ⚪&nbsp;` - ` | - | - |
