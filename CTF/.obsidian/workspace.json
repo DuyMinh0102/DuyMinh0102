@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "772686a7c3a2f853",
+        "id": "2ce79c8fe0a4fda7",
         "type": "tabs",
         "children": [
           {
-            "id": "a6a9854f6b2af5b6",
+            "id": "5e84621145f92017",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "6a2795a91b037698",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes on Linear Regression_CS229 Notes by Andrew NG.md",
-                "mode": "source",
-                "source": false
-              },
               "icon": "lucide-file",
-              "title": "Notes on Linear Regression_CS229 Notes by Andrew NG"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,10 +179,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "6a2795a91b037698",
+  "active": "5e84621145f92017",
   "lastOpenFiles": [
-    "Pasted image 20260603140447.png",
     "Notes on Linear Regression_CS229 Notes by Andrew NG.md",
+    "Pasted image 20260603140447.png",
     "Documents/AI/LinearRegression",
     "Documents/AI",
     "Documents/CTFRelated/Overthewire/Bandit/Level 32 - 33.md",
