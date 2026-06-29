@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 June 27, 2026** | | | |
+| **[FGAME](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DTBaiThayThai/fgame)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 17, 2026** | | | |
 | **[HANGPHALE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT17062026/hangphale)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 June 15, 2026** | | | |
@@ -162,8 +164,6 @@
 | **[B BASKETBALLTEAM CFBETAROUND82 DIV1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_BasketballTeam_CFBetaRound82_Div1)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given intergers n (players on the team), m (number of departments), h (Herr Wafa's department).<br>Then m intergers, number of students in the i-th department, h-th includes Herr Wafa's.<br>Solution: Basic combinatorics problem.</details> | _https://codeforces.com/problemset/problem/107/B_ |
 | **📅 April 10, 2026** | | | |
 | **[B CORMEN CFROUND377 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_Cormen_CFRound377_Div2)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given two intergers n and k. For any two consecutive days, you have to walk the dog a total of k times.<br>You're given n intergers, how many times you'd walk the dog on the i-th day.<br>Output:<br>- First line: the amount of additional walks needed<br>- Second line: n intergers, the amount of times you'd walk the dog on the i-th day<br>Solution: A linear brute force, greedy style, starting from the second day<br>if (a[i] + a[i - 1] < k) a[i] = k - a[i - 1]</details> | _https://codeforces.com/problemset/problem/732/B_ |
-| **📅 April 09, 2026** | | | |
-| **[B IMPOSTORSUS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_ImpostOrSus)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given a string S. Change some characters so that for every character 'u',<br>the closest character 's' on the left and right have the same distance relative to the current 'u' considering.<br>Solution: Greedy, there's nothing more I can say about this problem.</details> | _https://codeforces.com/problemset/problem/2178/B_ |
 | **📅 April 08, 2026** | | | |
 | **[A CHESSFOR3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/A_ChessFor3)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>T testcases. Given points of three friends. You get 0 for losing, 1 for drawing and 2 for winning.<br>Count the maximum amount of draws that could've happen. Or -1 if the scores are impossible to achieve.<br>Solution: The code is pretty simple so you should be able to figure it out by yourself.<br>if sum is not divisble by 2 => impossible to achieve.<br>Then just greedy the way through and get the result.</details> | _https://codeforces.com/problemset/problem/1973/A_ |
 | **[B ALSOTRYMINECRAFT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_AlsoTryMinecraft)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given N columns and M quests. If the next column you go to is lower than the current, take some damage equal to the difference.<br>Else, no damage.<br>Determine the total damage taken for each quest.<br>each quest you are given two int l and r.<br>l can be greater than r, meaning going backwards<br>Solution: A two way prefix<br>if l > r, use the backward prefix, else the forward prefix.</details> | _https://codeforces.com/problemset/problem/1709/B_ |
@@ -263,10 +263,22 @@
 | **[GLADE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/glade)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
-| **[P2STR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT19062026/p2str)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[DT22062026](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026)** | ⚪&nbsp;` - ` | - | - |
 | **[TREASURE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026/treasure)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[AVERAGE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/average)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[MEDIAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/median)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NFACTOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nfactor)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[RECTANGLE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/rectangle)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[DELCHAR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/delchar)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[PAINT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/paint)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CHUYENDEHLD](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT25062026/chuyendehld)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[P2STR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DTBaiThayThai/p2str)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai3)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
@@ -287,6 +299,7 @@
 | **[LONGEST PATH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DAG_MaOJ/longest_path)** | ⚪&nbsp;` - ` | - | - |
 | **[MAX PATH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DAG_MaOJ/max_path)** | ⚪&nbsp;` - ` | - | - |
 | **[READ ORDER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DAG_MaOJ/read_order)** | ⚪&nbsp;` - ` | - | - |
+| **[B IMPOSTORSUS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_ImpostOrSus)** | ⚪&nbsp;` - ` | - | - |
 | **[B UGU](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/B_Ugu)** | ⚪&nbsp;` - ` | - | - |
 | **[C KTREE CFROUND247 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_KTree_CFRound247_Div2)** | ⚪&nbsp;` - ` | - | - |
 | **[C NUMBEROFWAYS CFROUND266 DIV2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/DP_CF/C_NumberOfWays_CfRound266_Div2)** | ⚪&nbsp;` - ` | - | - |

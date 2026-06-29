@@ -1,57 +1,87 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Debug
-#define dbg(testingLine, debugDescription, testedVariable)                     \
-  cerr << "Debug on line " << testingLine << ': ' << debugDescription << ' '   \
-       << testedVariable << '\n';
-
-// Config
-#define pb push_back
 #define ll long long
-const int N = 205;
-const ll MOD = 1e9 + 7;
 
-// Variables
+const int MOD = 1000000007;
 int n, k;
 vector<int> b;
-bool mat[N][7];
-ll res = 0;
+unordered_map<int, int> mem;
 
-void solve(int id) {
-  if (id > n) {
-    res = (res + 1) % MOD;
-    return;
+int forward(int cur_st) {
+  if (mem.count(cur_st)) {
+    return mem[cur_st];
   }
 
-  for (int i = 0; i < (1 << k); ++i) {
-    int cnt = 0;
-    for (int j = 0; j < k; ++j) {
-      if (i & (1 << j)) {
-        mat[id][j] = true;
-      } else
-        mat[id][j] = false;
+  int nxt_st = 0, w_pos = k - 1, r_pos = 0;
+
+  for (int step_back = 1; step_back < k - 1; ++step_back) {
+    int oldsz = k - step_back, newsz = oldsz - 1;
+
+    int old_group = (cur_st >> r_pos) & ((1 << oldsz) - 1),
+        rem = old_group & ((1 << newsz) - 1);
+
+    nxt_st |= (rem << w_pos);
+
+    r_pos += oldsz;
+    w_pos += newsz;
+  }
+
+  return mem[cur_st] = nxt_st;
+}
+
+void solve() {
+  cin >> n >> k;
+
+  b.resize(n);
+  for (int &val : b)
+    cin >> val;
+
+  vector<vector<int>> valid_cols(k + 1);
+  int top_mask = (k > 1) ? ((1 << (k - 1)) - 1) : 0;
+
+  for (int c = 0; c < (1 << k); ++c) {
+    valid_cols[__builtin_popcount(c)].push_back(c & top_mask);
+  }
+
+  unordered_map<int, int> dp;
+  dp[0] = 1;
+
+  for (int req : b) {
+    unordered_map<int, int> nxt_dp;
+
+    for (auto &[state, ways] : dp) {
+      int needed = req - __builtin_popcount(state);
+
+      if (needed < 0 || needed > k)
+        continue;
+
+      int shifted = forward(state);
+
+      for (int top : valid_cols[needed]) {
+        int nxt_st = shifted | top;
+        nxt_dp[nxt_st] = (nxt_dp[nxt_st] + ways) % MOD;
+      }
     }
 
-    if (sum == b[id])
-      solve(id + 1);
+    dp = move(nxt_dp);
+    if (dp.empty())
+      break;
   }
+
+  ll total = 0;
+  for (auto &[state, ways] : dp) {
+    total = (total + ways) % MOD;
+  }
+
+  cout << total;
 }
 
 int main() {
-  ios_base::sync_with_stdio(0);
+  ios_base::sync_with_stdio(false);
   cin.tie(0);
-  cout.tie(0);
   freopen("treasure.inp", "r", stdin);
   freopen("treasure.out", "w", stdout);
-
-  cin >> n >> k;
-  b.resize(n + 1);
-
-  for (int i = 1; i <= n; ++i)
-    cin >> b[i];
-
-  solve(1);
-
-  cout << res;
+  solve();
+  return 0;
 }
