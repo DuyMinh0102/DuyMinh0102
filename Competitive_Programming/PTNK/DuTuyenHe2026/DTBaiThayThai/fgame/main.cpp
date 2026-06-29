@@ -23,7 +23,7 @@ const int N = 1005;
 
 // Variables
 int n, m;
-ll s[N][N];
+ll s[N][N], dp[N][N];
 
 void solve() {
   cin >> n >> m;
@@ -40,6 +40,8 @@ int main() {
   cin.tie(0);
   cout.tie(0);
 
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < 5; ++i) {
+    solve();
+    cout << '\n';
   }
 }
