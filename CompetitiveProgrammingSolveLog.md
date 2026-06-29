@@ -267,6 +267,17 @@
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[DT22062026](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026)** | ⚪&nbsp;` - ` | - | - |
 | **[TREASURE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026/treasure)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[AVERAGE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/average)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[MEDIAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/median)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NFACTOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nfactor)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[RECTANGLE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT23062026/rectangle)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[DELCHAR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/delchar)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[PAINT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT24062026/paint)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI3](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai3)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
