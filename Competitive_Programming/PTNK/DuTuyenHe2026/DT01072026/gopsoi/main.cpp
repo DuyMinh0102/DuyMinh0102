@@ -1,12 +1,12 @@
-// Source: https://codeforces.com/contest/550/problem/A
-// Status: Unsolved
+// Source:
+// Status:
 /*
 Note:
 
 Solution:
 
 Author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.
-Date: 30/06/2026 (DD/MM/YYYY).
+Date: (DD/MM/YYYY).
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,30 +19,34 @@ using namespace std;
 // Config
 #define pb push_back
 #define ll long long
+const int N = 705;
+const ll INF = 1e18;
 
 // Variables
-string s;
+int n;
+ll a[N], dp[N][N];
 
 int main() {
   ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
 
-  cin >> s;
-  bool possible = false;
+  cin >> n;
+  a[0] = 0;
+  for (int i = 1; i <= n; ++i) {
+    cin >> a[i];
+    a[i] += a[i - 1];
+  }
 
-  auto first_ab = s.find("AB");
-  if (first_ab != string::npos)
-    if (s.find("BA", first_ab + 2) != string::npos)
-      possible = true;
+  for (int len = 2; len <= n; ++len) {
+    for (int i = 1; i + len - 1 <= n; ++i) {
+      int j = i + len - 1;
+      dp[i][j] = INF;
+      for (int k = i; k < j; ++k) {
+        dp[i][j] = min(dp[i][j], dp[i][k] + dp[k + 1][j] + a[j] - a[i - 1]);
+      }
+    }
+  }
 
-  auto first_ba = s.find("BA");
-  if (first_ba != string::npos)
-    if (s.find("AB", first_ba + 2) != string::npos)
-      possible = true;
-
-  if (possible)
-    cout << "YES";
-  else
-    cout << "NO";
+  cout << dp[1][n];
 }
