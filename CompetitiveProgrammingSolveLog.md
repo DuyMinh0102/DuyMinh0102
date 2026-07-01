@@ -48,6 +48,8 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 June 30, 2026** | | | |
+| **[NORMA](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT30062026/norma)** | ⚪&nbsp;` - ` | <details><summary>📝 View</summary><br>Solution:</details> | - |
 | **📅 June 29, 2026** | | | |
 | **[COMPARESTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Trie_MaOJ/CompareString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/244_ |
 | **[MAXIMUMSCORE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Trie_MaOJ/MaximumScore)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/239_ |
@@ -285,6 +287,10 @@
 | **[CHUYENDEHLD](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT25062026/chuyendehld)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT29062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[REPOSE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT29062026/repose)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT30062026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[BEAUTY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT30062026/beauty)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CENSOR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT30062026/censor)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[RADIO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT30062026/radio)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[P2STR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DTBaiThayThai/p2str)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAI1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai1)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
 | **[BAI2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/30_4_OLP_TDN/bai2)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>..<br>Solution: ..</details> | _.._ |
@@ -365,6 +371,8 @@
 | **[WITHIN 1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/ST_BIT_MaOJ/within_1)** | ⚪&nbsp;` - ` | - | - |
 | **[MINIMUM QUERY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/SparseTable_MaOJ/minimum_query)** | ⚪&nbsp;` - ` | - | - |
 | **[NEAREST VERTEX](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Sqrt_Dcmp_MaOJ/nearest_vertex)** | ⚪&nbsp;` - ` | - | - |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/StringsCF/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[TWOSUBSTRINGS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/StringsCF/TwoSubstrings)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/550/problem/A_ |
 | **[PREFIX](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Trie_MaOJ/Prefix)** | ⚪&nbsp;` - ` | - | - |
 | **[BIN BOARD](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/bitmask_dp_MarisaOJ/bin_board)** | ⚪&nbsp;` - ` | - | - |
 | **[TRAVEL SALESMAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/bitmask_dp_MarisaOJ/travel_salesman)** | ⚪&nbsp;` - ` | - | - |
