@@ -1,0 +1,17 @@
+# Ignore absolutely everything
+*
+# Do NOT ignore directories (so git can search inside them)
+!*/
+# Do NOT ignore files with a dot (e.g., .cpp, .txt, .json, .lua)
+!*.*
+
+# ==========================================
+# 2. Specific Binary & Object Extensions
+# ==========================================
+*.exe
+*.o
+*.obj
+*.gch
+a.out
+main
+.vscode/
