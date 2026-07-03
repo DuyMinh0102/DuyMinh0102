@@ -48,6 +48,9 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 July 02, 2026** | | | |
+| **[KPOWER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT02072026/kpower)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[THEYAREEVERYWHERE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/StringsCF/TheyAreEverywhere)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/701/problem/C_ |
 | **📅 July 01, 2026** | | | |
 | **[CODEFORCESSUBSEQUENCES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/StringsCF/CodeforcesSubsequences)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1368/problem/B_ |
 | **[VASYAANDSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/StringsCF/VasyaAndString)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/676/problem/C_ |
@@ -265,10 +268,11 @@
 | **[PHANTUTHUK](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/PHANTUTHUK)** | ⚪&nbsp;` - ` | - | - |
 | **[THUTHAP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/THUTHAP)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
-| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[CATDAY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/catday)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[GOPSOI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/gopsoi)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[PHIPHANDOAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/phiphandoan)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT02072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT02072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
 | **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
