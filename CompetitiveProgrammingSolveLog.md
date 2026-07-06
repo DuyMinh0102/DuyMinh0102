@@ -48,6 +48,13 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 July 06, 2026** | | | |
+| **[PLANE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/plane)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **📅 July 05, 2026** | | | |
+| **[DOMINANTCHARACTER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DominantCharacter)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1605/problem/C_ |
+| **[KCOMPLETEWORD](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/KCompleteWord)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1332/problem/C_ |
+| **📅 July 04, 2026** | | | |
+| **[BALANCEDBITSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/BalancedBitstring)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given a string contains only '0', '1', and '?'. Determine if there's a way<br>to replace '?'s with '0' or '1' so that every k-sized substring has an equal<br>amount of 0s and 1s. k is even<br>Solution:</details> | _https://codeforces.com/contest/1404/problem/A_ |
 | **📅 July 02, 2026** | | | |
 | **[KPOWER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT02072026/kpower)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[THEYAREEVERYWHERE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/TheyAreEverywhere)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/701/problem/C_ |
@@ -274,6 +281,10 @@
 | **[PHIPHANDOAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/phiphandoan)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT02072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT02072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[BITONIC](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/bitonic)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
 | **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
