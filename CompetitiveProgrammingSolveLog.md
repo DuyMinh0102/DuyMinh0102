@@ -49,7 +49,13 @@
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
 | **📅 July 06, 2026** | | | |
+| **[GAMETABLE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/gametable)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[PLANE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/plane)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[IHATE1111](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/IHate1111)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1526/problem/B_ |
+| **[TWOBUTTONS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/TwoButtons)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/520/problem/B_ |
+| **[DIDWEGETEVERYTHINGCOVERED](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DidWeGetEverythingCovered)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1924/problem/A_ |
+| **[NEARLYSHORTESTREPEATINGSUBSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/NearlyShortestRepeatingSubstr)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1950/problem/E_ |
+| **[SUFFIXSTRUCTURES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/SuffixStructures)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/448/problem/B_ |
 | **📅 July 05, 2026** | | | |
 | **[DOMINANTCHARACTER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DominantCharacter)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1605/problem/C_ |
 | **[KCOMPLETEWORD](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/KCompleteWord)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1332/problem/C_ |
@@ -324,6 +330,7 @@
 | **[SHORTEST ROUTES 1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/shortest_routes_1)** | ⚪&nbsp;` - ` | - | - |
 | **[SHORTEST ROUTES 2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/shortest_routes_2)** | ⚪&nbsp;` - ` | - | - |
 | **[PREFIXSUMQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/RangeQueries_CSES/prefixsumqueries)** | ⚪&nbsp;` - ` | - | - |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[B UGU](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/B_Ugu)** | ⚪&nbsp;` - ` | - | - |
 | **[C KTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/C_KTree)** | ⚪&nbsp;` - ` | - | - |
 | **[C NUMBEROFWAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/C_NumberOfWays)** | ⚪&nbsp;` - ` | - | - |
@@ -335,7 +342,7 @@
 | **[E1 ERASEANDEXTEND EASYVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/E1_EraseAndExtend_EasyVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
 | **[E GARDENERNTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/E_GardenerNTree)** | ⚪&nbsp;` - ` | - | - |
 | **[SANTANCANDY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/SantaNCandy)** | ⚪&nbsp;` - ` | - | - |
-| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[DECREASINGSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DecreasingString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1886/problem/C_ |
 | **[BAMBOOFORESTOFTHELOST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bambooforestofthelost)** | ⚪&nbsp;` - ` | - | - |
 | **[BIPARTITE GRAPH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bipartite_graph)** | ⚪&nbsp;` - ` | - | - |
 | **[FEST1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/fest1)** | ⚪&nbsp;` - ` | - | - |
