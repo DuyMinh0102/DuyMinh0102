@@ -48,6 +48,13 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 July 07, 2026** | | | |
+| **[LUYENTAPTHETHAO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/luyentapthethao)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[MAXDIST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/maxdist)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:<br>author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.</details> | __ |
+| **[DIVISIBILITYBYEIGHT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/DivisibilityByEight)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/550/problem/C_ |
+| **[MAXIMUMMEDIAN](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/MaximumMedian)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Given array, maximize median of array when sorted non-decreasingly with k<br>+1 operations.<br>Solution:</details> | _https://codeforces.com/contest/1201/problem/C_ |
+| **[ZEROREMAINDERARRAY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/ZeroRemainderArray)** | 🟢&nbsp;` SOLVED SOLVED SOLVED SOLVED ` | <details><summary>📝 View</summary><br>Two types of operations:<br>x += 1<br>a_i += x (each a_i can only be ince by x once)<br>Output minimum amount of ops so every a_i % k == 0<br>Solution:</details> | _https://codeforces.com/contest/1374/problem/D_ |
+| **[STRINGEQUALITY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/StringEquality)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1451/problem/C_ |
 | **📅 July 06, 2026** | | | |
 | **[GAMETABLE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/gametable)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[PLANE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/plane)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
@@ -291,6 +298,8 @@
 | **[BITONIC](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/bitonic)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[THANHPHOTHUNGLUNG](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/thanhphothunglung)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
 | **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
@@ -342,6 +351,7 @@
 | **[E1 ERASEANDEXTEND EASYVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/E1_EraseAndExtend_EasyVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
 | **[E GARDENERNTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/E_GardenerNTree)** | ⚪&nbsp;` - ` | - | - |
 | **[SANTANCANDY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/SantaNCandy)** | ⚪&nbsp;` - ` | - | - |
+| **[CPPTEMP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/CPPTemp)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[DECREASINGSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DecreasingString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1886/problem/C_ |
 | **[BAMBOOFORESTOFTHELOST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bambooforestofthelost)** | ⚪&nbsp;` - ` | - | - |
 | **[BIPARTITE GRAPH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bipartite_graph)** | ⚪&nbsp;` - ` | - | - |
