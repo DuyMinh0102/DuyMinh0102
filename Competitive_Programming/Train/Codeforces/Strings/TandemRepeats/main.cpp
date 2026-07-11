@@ -1,4 +1,4 @@
-// Source: https://codeforces.com/contest/1886/problem/C
+// Source: https://codeforces.com/contest/1948/problem/D
 // Status: Solved
 /*
 Note:
@@ -6,7 +6,7 @@ Note:
 Solution:
 
 Author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.
-Date: (DD/MM/YYYY).
+Date: 10/07/2026 (DD/MM/YYYY).
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,32 +21,30 @@ using namespace std;
 #define ll long long
 
 // Variables
-int t, n;
-ll pos;
+int n, t;
 string s;
 
 void solve() {
-  cin >> s >> pos;
-  --pos;
-
+  cin >> s;
   n = s.size();
-  s += '#';
-  vector<char> st;
-  bool found = pos < n;
 
-  for (char c : s) {
-    while (!found && !st.empty() && st.back() > c) {
-      pos -= n;
-      --n;
-      st.pop_back();
+  for (int d = n / 2; d >= 1; --d) {
+    int match = 0;
 
-      if (pos < n)
-        found = true;
+    for (int i = 0; i < n - d; ++i) {
+      if (s[i] == s[i + d] || s[i] == '?' || s[i + d] == '?') {
+        ++match;
+
+        if (match == d) {
+          cout << 2 * d << '\n';
+          return;
+        }
+      } else
+        match = 0;
     }
-    st.pb(c);
   }
 
-  cout << st[pos];
+  cout << 0 << '\n';
 }
 
 int main() {
