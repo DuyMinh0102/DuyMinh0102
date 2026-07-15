@@ -12,6 +12,7 @@
 *.o
 *.obj
 *.gch
+*.parquet
 a.out
 main
 .vscode/
