@@ -48,6 +48,27 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 July 15, 2026** | | | |
+| **[MASHAANDABEAUTIFULTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/MashaAndABeautifulTree)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1741/problem/D_ |
+| **[PERMUTATIONTRANSFORMATION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/PermutationTransformation)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1490/problem/D_ |
+| **[PRODUCT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/MarisaOJ/DivideNConquer/Product)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/423_ |
+| **📅 July 14, 2026** | | | |
+| **[THANHPHOTHUNGLUNG](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT14072026/thanhphothunglung)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **📅 July 13, 2026** | | | |
+| **[GREETINGS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/Greetings)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1915/problem/F_ |
+| **[PREFIX SUFFXPALINDROME HARDVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/Prefix_SuffxPalindrome_HardVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1326/problem/D2_ |
+| **[STRINGTRANSFORMATION1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/StringTransformation1)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1383/problem/A_ |
+| **📅 July 12, 2026** | | | |
+| **[PREFIXESANDSUFFIXES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/PrefixesAndSuffixes)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/432/problem/D_ |
+| **[STRINGGAME](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/StringGame)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/778/problem/A_ |
+| **📅 July 11, 2026** | | | |
+| **[MINCOSTSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/MinCostString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1511/problem/D_ |
+| **📅 July 10, 2026** | | | |
+| **[TANDEMREPEATS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/TandemRepeats)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1948/problem/D_ |
+| **📅 July 09, 2026** | | | |
+| **[GOODSUBSTRINGS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/GoodSubstrings)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/271/problem/D_ |
+| **[PHOENIXANDDISTRIBUTION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/PhoenixAndDistribution)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1348/problem/C_ |
+| **[PREFIXFLIP HARDVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/PrefixFlip_HardVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1381/problem/A2_ |
 | **📅 July 07, 2026** | | | |
 | **[LUYENTAPTHETHAO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/luyentapthethao)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[MAXDIST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/maxdist)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:<br>author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.</details> | __ |
@@ -300,6 +321,12 @@
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT06072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[THANHPHOTHUNGLUNG](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT07072026/thanhphothunglung)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT13072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[BACTERIA](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT13072026/bacteria)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[MATRIX](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT13072026/matrix)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT13072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT13072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT14072026/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[REPAIR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT15062026/repair)** | ⚪&nbsp;` - ` | - | - |
 | **[TG01BSTR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT16062026/TG01BSTR)** | ⚪&nbsp;` - ` | - | - |
@@ -351,8 +378,10 @@
 | **[E1 ERASEANDEXTEND EASYVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/E1_EraseAndExtend_EasyVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the most optimal prefix of the original string<br>Solution:</details> | _https://codeforces.com/contest/1537/problem/E1 and https://codeforces.com/contest/1537/problem/E2_ |
 | **[E GARDENERNTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/E_GardenerNTree)** | ⚪&nbsp;` - ` | - | - |
 | **[SANTANCANDY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/SantaNCandy)** | ⚪&nbsp;` - ` | - | - |
+| **[CLEARTHEMULTISET](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/ClearTheMultiset)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/1400/E_ |
 | **[CPPTEMP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/CPPTemp)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[DECREASINGSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DecreasingString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1886/problem/C_ |
+| **[PECULIARMOVIEPREFERENCES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/PeculiarMoviePreferences)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAMBOOFORESTOFTHELOST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bambooforestofthelost)** | ⚪&nbsp;` - ` | - | - |
 | **[BIPARTITE GRAPH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bipartite_graph)** | ⚪&nbsp;` - ` | - | - |
 | **[FEST1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/fest1)** | ⚪&nbsp;` - ` | - | - |
