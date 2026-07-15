@@ -21,8 +21,7 @@ using namespace std;
 #define ll long long
 
 // Variables
-int t, n;
-ll pos;
+int t, n, pos;
 string s;
 
 void solve() {
