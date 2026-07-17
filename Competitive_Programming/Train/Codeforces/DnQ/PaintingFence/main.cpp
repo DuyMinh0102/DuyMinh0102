@@ -1,4 +1,4 @@
-// Source: https://codeforces.com/problemset/problem/1400/E
+// Source: https://codeforces.com/contest/448/problem/C
 // Status: Solved
 /*
 Note:
@@ -6,7 +6,7 @@ Note:
 Solution:
 
 Author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.
-Date: (DD/MM/YYYY).
+Date: 17/07/2026 (DD/MM/YYYY).
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,10 +21,9 @@ using namespace std;
 #define ll long long
 
 // Variables
-int n;
-ll a[5005];
+int n, a[5005];
 
-ll solve(int l, int r, int sub) {
+int cnt(int l, int r, int sub) {
   if (l > r)
     return 0;
 
@@ -33,9 +32,9 @@ ll solve(int l, int r, int sub) {
     if (a[i] < a[id])
       id = i;
 
-  ll ops = (a[id] - sub) + solve(l, id - 1, a[id]) + solve(id + 1, r, a[id]);
+  int ops = (a[id] - sub) + cnt(l, id - 1, a[id]) + cnt(id + 1, r, a[id]);
 
-  return min(ops, (ll)r - l + 1);
+  return min(ops, r - l + 1);
 }
 
 int main() {
@@ -47,6 +46,5 @@ int main() {
   for (int i = 1; i <= n; ++i)
     cin >> a[i];
 
-  cout << solve(1, n, 0);
-  return 0;
+  cout << cnt(1, n, 0);
 }

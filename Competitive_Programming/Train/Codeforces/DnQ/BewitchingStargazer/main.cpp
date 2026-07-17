@@ -1,4 +1,4 @@
-// Source: https://codeforces.com/problemset/problem/1400/E
+// Source: https://codeforces.com/contest/2053/problem/C
 // Status: Solved
 /*
 Note:
@@ -6,7 +6,7 @@ Note:
 Solution:
 
 Author: Nguyen Duy Minh - studying at High School for the Gifted, VNU - HCM.
-Date: (DD/MM/YYYY).
+Date: 17/07/2026 (DD/MM/YYYY).
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,21 +21,20 @@ using namespace std;
 #define ll long long
 
 // Variables
-int n;
-ll a[5005];
+int t, n, k;
 
-ll solve(int l, int r, int sub) {
+ll solve(ll l, ll r) {
   if (l > r)
     return 0;
+  if (r - l + 1 < k)
+    return 0;
 
-  int id = l;
-  for (int i = l + 1; i <= r; ++i)
-    if (a[i] < a[id])
-      id = i;
+  ll mid = l + ((r - l) >> 1);
+  if ((r - l + 1) & 1) {
+    return mid + ((r != l) ? solve(l, mid - 1) + solve(mid + 1, r) : 0);
+  }
 
-  ll ops = (a[id] - sub) + solve(l, id - 1, a[id]) + solve(id + 1, r, a[id]);
-
-  return min(ops, (ll)r - l + 1);
+  return solve(l, mid) + solve(mid + 1, r);
 }
 
 int main() {
@@ -43,10 +42,10 @@ int main() {
   cin.tie(0);
   cout.tie(0);
 
-  cin >> n;
-  for (int i = 1; i <= n; ++i)
-    cin >> a[i];
+  cin >> t;
+  while (t--) {
+    cin >> n >> k;
 
-  cout << solve(1, n, 0);
-  return 0;
+    cout << solve(1, n) << '\n';
+  }
 }
