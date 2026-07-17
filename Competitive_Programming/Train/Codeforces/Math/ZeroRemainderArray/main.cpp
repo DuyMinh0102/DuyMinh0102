@@ -1,5 +1,5 @@
 // Source: https://codeforces.com/contest/1374/problem/D
-// Status: Solved Solved Solved Solved
+// Status: Solved
 /*
 Note: Two types of operations:
 x += 1
