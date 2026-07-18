@@ -48,6 +48,14 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 July 17, 2026** | | | |
+| **[TEATASTING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/BinarySearch/TeaTasting)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1795/problem/C_ |
+| **[BEWITCHINGSTARGAZER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/BewitchingStargazer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/2053/problem/C_ |
+| **[PAINTINGFENCE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/PaintingFence)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/448/problem/C_ |
+| **[PASHMAKNPARMIDAPROBLEM](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/PashmakNParmidaProblem)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/459/problem/D_ |
+| **📅 July 16, 2026** | | | |
+| **[LOSTNUMBERS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/LostNumbers)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1167/problem/B_ |
+| **[AGOODSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/aGoodString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1385/problem/D_ |
 | **📅 July 15, 2026** | | | |
 | **[MASHAANDABEAUTIFULTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/MashaAndABeautifulTree)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1741/problem/D_ |
 | **[PERMUTATIONTRANSFORMATION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/PermutationTransformation)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1490/problem/D_ |
