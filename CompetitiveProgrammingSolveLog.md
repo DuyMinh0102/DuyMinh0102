@@ -48,6 +48,17 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 July 21, 2026** | | | |
+| **[TILLICOLLAPSE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/TillICollapse)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/786/C_ |
+| **[RICE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/HCMUS-ICPC_TrainingCamp/rice)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>a grid of size R x C, the farm plot at i-th row and j-th col is denoted as<br>(i, j). Each (i, j) has an elevation of L_ij (pairwise distinct), and a type<br>P_ij. When a flood of height H occurs, any plot with elevation <= H will be<br>flooded. On a flooded plot, you can go to any shared-edge plot if it's also<br>flooded.<br>2 type of queries:<br>1 X Y P: changes the type of (X, Y) to P<br>2 X Y L: when a flood of height L occurs, count the amount of different types<br>P_ij the flooded region containing plot (X, Y), if (X,Y) is not flooded when<br>flood L occurs, output 0.<br>Solution:</details> | __ |
+| **[SPLIT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/HCMUS-ICPC_TrainingCamp/split)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **📅 July 20, 2026** | | | |
+| **[NOBLEKNIGHTSPATH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/NobleKnightsPath)** | 🔴&nbsp;` UNSOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/226/E_ |
+| **[RADIOSTATIONS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/RadioStations)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/762/E_ |
+| **📅 July 19, 2026** | | | |
+| **[XOR EXPRESSIONNTWOBINARYNUMBERS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/Xor_ExpressionNTwoBinaryNumbers)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/2234/problem/D_ |
+| **📅 July 18, 2026** | | | |
+| **[MAXSUMOR EASYVER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/MaxSumOr_EasyVer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/2146/problem/D1_ |
 | **📅 July 17, 2026** | | | |
 | **[TEATASTING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/BinarySearch/TeaTasting)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1795/problem/C_ |
 | **[BEWITCHINGSTARGAZER](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/BewitchingStargazer)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/2053/problem/C_ |
@@ -59,7 +70,7 @@
 | **📅 July 15, 2026** | | | |
 | **[MASHAANDABEAUTIFULTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/MashaAndABeautifulTree)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1741/problem/D_ |
 | **[PERMUTATIONTRANSFORMATION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/PermutationTransformation)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1490/problem/D_ |
-| **[PRODUCT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/MarisaOJ/DivideNConquer/Product)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/423_ |
+| **[PRODUCT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/DivideNConquer/Product)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://marisaoj.com/problem/423_ |
 | **📅 July 14, 2026** | | | |
 | **[THANHPHOTHUNGLUNG](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT14072026/thanhphothunglung)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 July 13, 2026** | | | |
@@ -289,7 +300,6 @@
 | **[ROOTLESS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT03032026/rootless)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>find the Lowest Common Ancestor of two vertex u and v if the root is r<br>Solution: it's graph theory, and I really don't understand it.</details> | _Lost source_ |
 | **📅 February 26, 2026** | | | |
 | **[MINMM](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT26022026/minmm)** | 🟢&nbsp;` SOLVED. ` | <details><summary>📝 View</summary><br>Given an array of n intergers and an interger k.<br>Task: Remove k intergers from the array.<br>Let M be the greatest difference between any two intergers left<br>Let m be the smallest difference between any two intergers left<br>Find the minimum possible value of M + m.<br>Solution: Sliding window + something to solve the query of minimum difference/maximum difference within a range<br>Basically Sliding window + RMQ.<br>Time complexity: O(n log n), if use ST another O(n log n).</details> | _Problems/BT_20260226.pdf_ |
-| **[STRINGKC](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT26022026/stringkc)** | 🔴&nbsp;` UNSOLVED. ` | <details><summary>📝 View</summary><br>Solution:</details> | _Problems/BT_20260226.pdf_ |
 | **[TRAVEL](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT26022026/travel)** | 🔴&nbsp;` UNSOLVED. ` | <details><summary>📝 View</summary><br>I don't even understand the problem.<br>Solution:</details> | _Problems/BT_20260226.pdf_ |
 | **📅 February 24, 2026** | | | |
 | **[ANCES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT24022026/ances)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Find the lowest common ancestor of two nodes.<br>Solution: There's only one query, and the constraints are small (if I remember correctly, since Ilostthesauce), I just brute force it.</details> | _Ilostthesauce_ |
@@ -317,6 +327,7 @@
 | **[CNTTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Learn/Contest_12062026/cnttree)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[PHANTUTHUK](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/PHANTUTHUK)** | ⚪&nbsp;` - ` | - | - |
 | **[THUTHAP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT05052026/THUTHAP)** | ⚪&nbsp;` - ` | - | - |
+| **[STRINGKC](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/BT26022026/stringkc)** | ⚪&nbsp;` - ` | - | - |
 | **[GOLD SMTH SMTH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/Contests/Contest_26032026/gold_smth_smth)** | ⚪&nbsp;` - ` | - | - |
 | **[CATDAY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/catday)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[GOPSOI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT01072026/gopsoi)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
@@ -345,6 +356,9 @@
 | **[GLADE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/glade)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT18062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[CPPTEMP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT20072026/CPPTemp)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT20072026/nopbai)** | ⚪&nbsp;` - ` | - | - |
+| **[PUNCH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT20072026/punch)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[NOPBAI](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026/nopbai)** | ⚪&nbsp;` - ` | - | - |
 | **[DT22062026](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026)** | ⚪&nbsp;` - ` | - | - |
 | **[TREASURE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT22062026/treasure)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
@@ -367,6 +381,7 @@
 | **[RADIO](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DT30062026/radio)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[P2STR](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DTBaiThayThai/p2str)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[SD2EQ](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/PTNK/DuTuyenHe2026/DTBaiThayThai/sd2eq)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BUIDING TEAMS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/buiding_teams)** | ⚪&nbsp;` - ` | - | - |
 | **[HIGHSCORE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/highscore)** | ⚪&nbsp;` - ` | - | - |
 | **[MONSTERS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/monsters)** | ⚪&nbsp;` - ` | - | - |
@@ -374,7 +389,6 @@
 | **[SHORTEST ROUTES 1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/shortest_routes_1)** | ⚪&nbsp;` - ` | - | - |
 | **[SHORTEST ROUTES 2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/shortest_routes_2)** | ⚪&nbsp;` - ` | - | - |
 | **[PREFIXSUMQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/RangeQueries_CSES/prefixsumqueries)** | ⚪&nbsp;` - ` | - | - |
-| **[CPP TEMPLATE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/CPP_Template)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[B UGU](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/B_Ugu)** | ⚪&nbsp;` - ` | - | - |
 | **[C KTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/C_KTree)** | ⚪&nbsp;` - ` | - | - |
 | **[C NUMBEROFWAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/C_NumberOfWays)** | ⚪&nbsp;` - ` | - | - |
@@ -388,6 +402,9 @@
 | **[SANTANCANDY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/SantaNCandy)** | ⚪&nbsp;` - ` | - | - |
 | **[CLEARTHEMULTISET](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DnQ/ClearTheMultiset)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/1400/E_ |
 | **[CPPTEMP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Math/CPPTemp)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[ARMYCREATION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/ArmyCreation)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Hire n warriors, i-th warrior is of type a-i.<br>goal: create balanced army -> each type of warrior, not more than k of them is<br>inside of the army<br>Solution:</details> | _https://codeforces.com/problemset/problem/813/E_ |
+| **[PERSISTENTBOOKCASE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/PersistentBookcase)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/707/problem/D_ |
+| **[CPPTEMP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/cpptemp)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[DECREASINGSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DecreasingString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1886/problem/C_ |
 | **[PECULIARMOVIEPREFERENCES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/PeculiarMoviePreferences)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAMBOOFORESTOFTHELOST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bambooforestofthelost)** | ⚪&nbsp;` - ` | - | - |
