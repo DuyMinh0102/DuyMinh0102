@@ -31,7 +31,7 @@ I'm backend-focused developer who loves figuring out how systems actually work u
 ### 📊 GitHub Stats
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=DuyMinh0102&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+ <img src="https://streak-stats.demolab.com/?user=DuyMinh0102&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
   <br/>
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=DuyMinh0102&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
