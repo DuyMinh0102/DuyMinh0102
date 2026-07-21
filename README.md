@@ -1,4 +1,4 @@
-# Hi, I'm Duy Minh
+# Hello and welcome to my bio. My name is Duy Minh
 
 ## 🛠️ What I'm working on right now
 * Building a **CLI API Health Monitor** using native Node.js (`http`, `fs`)
