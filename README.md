@@ -1,10 +1,38 @@
-# Hello and welcome to my bio. My name is Duy Minh
+<h1 align="center">Welcome to my bio, I am Duy Minh 👋</h1>
+<h3 align="center">Backend Developer | Competitive Programmer | Linux Enthusiast </h3>
 
-## 🛠️ What I'm working on right now
-* Building a **CLI API Health Monitor** using native Node.js (`http`, `fs`)
-* Studying raw HTTP/1.1 specifications and REST architecture
-* Exploring vanilla JavaScript and backend logic
+<br/>
 
-## 💻 Tech Stack
-* **Languages:** JavaScript (Node.js)
-* **Tools:** Git, Terminal
+I'm backend-focused developer who loves figuring out how systems actually work under the hood. I found docs a great source of information, and everyone should read docs.
+
+- **Currently building:** A CLI API Health Monitor using native Node.js (`http`, `fs`)
+
+- **Currently learning:** Raw HTTP/1.1 specifications, REST architecture, and API design
+
+- **How to reach me:** minhnguyenduy1234@gmail.com
+
+---
+
+### 🛠️ Languages and Tools
+
+<div align="left">
+  <!-- JavaScript -->
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+  <!-- Node.js -->
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <!-- Express.js (For when you start using it) -->
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+  <!-- Git -->
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</div>
+
+<br/>
+
+### 📊 GitHub Stats
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  <br/>
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</div>
