@@ -48,6 +48,10 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 August 21, 2026** | | | |
+| **[BEARNFRIENDSHIPCONDITION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Graphs/BearNFriendshipCondition)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/771/A_ |
+| **📅 August 20, 2026** | | | |
+| **[SOLDIERNTRAVELING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Flow/SoldierNTraveling)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/546/E_ |
 | **📅 August 19, 2026** | | | |
 | **[TETRAHEDRON](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/MatrixMulti/Tetrahedron)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/166/E_ |
 | **📅 August 18, 2026** | | | |
