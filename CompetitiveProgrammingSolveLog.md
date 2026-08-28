@@ -48,6 +48,10 @@
 
 | Problem | Status | Notes | Source |
 | :--- | :--- | :---: | :--- |
+| **📅 August 25, 2026** | | | |
+| **[KALILANDIMMAINLOGGINGINDUSTRY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/CHT/KalilaNDimmaInLoggingIndustry)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/319/C_ |
+| **📅 August 24, 2026** | | | |
+| **[PETYANGRAPH](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Flow/PetyaNGraph)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **📅 August 21, 2026** | | | |
 | **[BEARNFRIENDSHIPCONDITION](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Graphs/BearNFriendshipCondition)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/771/A_ |
 | **📅 August 20, 2026** | | | |
@@ -443,6 +447,8 @@
 | **[SHORTEST ROUTES 1](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/shortest_routes_1)** | ⚪&nbsp;` - ` | - | - |
 | **[SHORTEST ROUTES 2](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/Graph_CSES/shortest_routes_2)** | ⚪&nbsp;` - ` | - | - |
 | **[PREFIXSUMQUERIES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/CSES/RangeQueries_CSES/prefixsumqueries)** | ⚪&nbsp;` - ` | - | - |
+| **[CHT](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/CHT)** | ⚪&nbsp;` - ` | - | - |
+| **[THEFAIRNUTNRECTANGLES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/CHT/TheFairnutNRectangles)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1083/problem/E_ |
 | **[B UGU](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/B_Ugu)** | ⚪&nbsp;` - ` | - | - |
 | **[C KTREE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/C_KTree)** | ⚪&nbsp;` - ` | - | - |
 | **[C NUMBEROFWAYS](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/DP/C_NumberOfWays)** | ⚪&nbsp;` - ` | - | - |
@@ -466,6 +472,7 @@
 | **[SIGNONFENCE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/SignOnFence)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[THEBAKERY](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/TheBakery)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/problemset/problem/833/B_ |
 | **[CPPTEMP](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/PersistentSegmentTree/cpptemp)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
+| **[CULTURECODE](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/SegmentTree/CultureCode)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[DECREASINGSTRING](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/DecreasingString)** | 🟢&nbsp;` SOLVED ` | <details><summary>📝 View</summary><br>Solution:</details> | _https://codeforces.com/contest/1886/problem/C_ |
 | **[PECULIARMOVIEPREFERENCES](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/Codeforces/Strings/PeculiarMoviePreferences)** | ⚪&nbsp;`  ` | <details><summary>📝 View</summary><br>Solution:</details> | __ |
 | **[BAMBOOFORESTOFTHELOST](https://github.com/DuyMinh0102/DuyMinh0102/tree/main/Competitive_Programming/Train/MarisaOJ/BFS_DFS/bambooforestofthelost)** | ⚪&nbsp;` - ` | - | - |
